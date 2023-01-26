@@ -3,6 +3,7 @@
 }
 .wilo-nav {
     .container-fluid {
+        max-width: 1340px;
         padding: {
             left: 50px;
             right: 50px;
@@ -37,7 +38,7 @@
             };
             .nav-item {
                 position: relative;
-                a {
+                .nav-link {
                     color:#585B6F;
                     font: {
                         size: 16px;
@@ -48,6 +49,9 @@
                         top: 55px;
                         bottom: 55px;
                     };
+                    &--no-padding {
+                        padding-right: 0;
+                    }
                     i {
                         font-size: 18px;
                         position: relative;
@@ -982,7 +986,7 @@
 
     .wilo-nav {
         .container-fluid {
-            max-width: 1200px;
+        
             padding: {
                 left: 20px;
                 right: 20px;

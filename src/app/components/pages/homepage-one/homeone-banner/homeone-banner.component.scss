@@ -12,7 +12,7 @@
         bottom: 350px;
     };
     .container-fluid {
-        max-width: 1360px;
+        max-width: 1200px;
     }
     &.without-banner-animation {
         padding: {
@@ -75,16 +75,53 @@
     position: relative;
 }
 .main-banner-img {
+    max-width: 800px;
     position: absolute;
-    bottom: 0;
-    right: -153px;
+    top: 225px;
+    right: 0;
+    display: none;
+    @media only screen and (min-width: 1200px) {
+        display: block;
+    }
+
 }
 .vector-img {
+    max-width: 300px;
     position: absolute;
     z-index: -1;
-    top: -60px;
-    right: -148px;
+    top: 230px;
+    right: 0;
+    display: none;
+    @media only screen and (min-width: 1200px) {
+        display: block;
+    }
 }
+.customers {
+    margin-top: 168px;
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        @media only screen and (min-width: 1200px) {
+            margin-bottom: 0;
+        }
+
+        &--start {
+            @media only screen and (min-width: 1200px) {
+                justify-content: start;  
+            }
+        }
+        &--end {
+            @media only screen and (min-width: 1200px) {
+                justify-content: end; 
+            }
+       
+        }
+    }
+}
+
+
 
 @media only screen and (max-width: 767px) {
 
@@ -96,12 +133,6 @@
         };
         .container-fluid {
             max-width: 100%;
-        }
-        &.without-banner-animation {
-            padding: {
-                top: 200px;
-                bottom: 0;
-            };
         }
     }
     .main-banner-content {
@@ -120,30 +151,30 @@
                 top: 25px;
                 bottom: -10px;
             };
-            .video-btn {
-                position: relative;
-                font-size: 14px;
-                top: -10px;
-                margin: {
-                    top: 0;
-                    left: 10px;
-                };
-                i {
-                    width: 40px;
-                    height: 40px;
-                    line-height: 40px;
-                    font-size: 15px;
-                    margin-right: 4px;
-                }
-            }
+            // .video-btn {
+            //     position: relative;
+            //     font-size: 14px;
+            //     top: -10px;
+            //     margin: {
+            //         top: 0;
+            //         left: 10px;
+            //     };
+            //     i {
+            //         width: 40px;
+            //         height: 40px;
+            //         line-height: 40px;
+            //         font-size: 15px;
+            //         margin-right: 4px;
+            //     }
+            // }
         }
     }
-    .main-banner-animation-image {
-        text-align: center;
-        width: auto;
-        height: auto;
-        margin-top: 55px;
-    }
+    // .main-banner-animation-image {
+    //     text-align: center;
+    //     width: auto;
+    //     height: auto;
+    //     margin-top: 55px;
+    // }
     .main-banner-image {
         margin-top: 55px;
     }
@@ -299,7 +330,7 @@
 
     .main-banner {
         .container-fluid {
-            max-width: 1160px;
+            max-width: 1200px;
         }
     }
     .main-banner-content {
@@ -378,7 +409,7 @@
 
     .main-banner {
         .container-fluid {
-            max-width: 1600px;
+            max-width: 1200px;
         }
     }
     .main-banner-content {
@@ -386,19 +417,19 @@
             font-size: 65px;
         }
     }
-    .main-banner-animation-image {
-        // img {    
-        //     &:nth-child(1) {
-        //         left: 35px;
-        //     }
-        //     &:nth-child(2) {
-        //         left: 255px;
-        //         top: 0;
-        //     }
-        //     &:nth-child(3) {
-        //         left: 10px;
-        //     }
-        // }
-    }
+    // .main-banner-animation-image {
+    //     // img {    
+    //     //     &:nth-child(1) {
+    //     //         left: 35px;
+    //     //     }
+    //     //     &:nth-child(2) {
+    //     //         left: 255px;
+    //     //         top: 0;
+    //     //     }
+    //     //     &:nth-child(3) {
+    //     //         left: 10px;
+    //     //     }
+    //     // }
+    // }
 
 }
