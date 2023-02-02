@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@400;500&display=swap');
 
+
+//custom scss
+
+.mean-container a.meanmenu-reveal span {
+    width: 24px;
+    height: 2px;
+    color: #3A404F;
+    top: 6px;
+}
+
+.container-fluid {
+    max-width: 720px;
+    padding: 96px 24px;
+
+    @media only screen and (min-width: 1200px) {
+        max-width: 1200px;
+        padding: 120px 0;
+    }
+        
+    }
+
+//custom scss
+
 :root {
     --fontFamily: 'Roboto', sans-serif; 
     --mainColor: #51DE92;
@@ -112,17 +135,19 @@ a {
     display: inline-block;
     border: none;
     text-align: center;
+    float: left;
     background-color: var(--mainColor);
     box-shadow:  0px 4px 20px rgba(0, 0, 0, 0.15); 
-    padding: 28px 85px;
-    border-radius: 50px;
+    padding: 23px 31px;
+    border-radius: 80px;
     font: {
         weight: 600;
         size: 16px;
     };
     span {
         font-family: 'Roboto', sans-serif;
-        letter-spacing: 2.5px;
+        letter-spacing: 1.9px;
+        line-height: 19px;
     }
 }
 /*section-title*/
@@ -1437,7 +1462,11 @@ Shape Img CSS
         font-size: 15px;
     }
     p {
-        font-size: 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: left;
+        color: #585B6F;
     }
     .container {
         max-width: 100%;
@@ -1467,7 +1496,7 @@ Shape Img CSS
         padding-bottom: 30px;
     }
     .default-btn {
-        font-size: 12px;
+        font-size: 16px;
 
         i {
             left: 19px;
@@ -1686,7 +1715,8 @@ Shape Img CSS
         font-size: 16px;
     }
     p {
-        font-size: 16px;
+        font-size: 20px;
+        text-align: left;
     }
     .container {
         max-width: 720px;
@@ -1730,7 +1760,7 @@ Shape Img CSS
         }
     }
     .default-btn {
-        font-size: 12px;
+        font-size: 16px;
     }
     .vector-shape1, .vector-shape2, .vector-shape3, .vector-shape4, .vector-shape5, .vector-shape6, .vector-shape7, .vector-shape8, .vector-shape9, .vector-shape10, .vector-shape11, .vector-shape12, .circle-shape1, .circle-shape2, .circle-shape3, .circle-shape4, .map-shape1, .map-shape2 {
         display: none !important;

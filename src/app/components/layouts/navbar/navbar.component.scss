@@ -3,12 +3,10 @@
 }
 .wilo-nav {
     .container-fluid {
-        max-width: 1340px;
-        padding: {
-            left: 50px;
-            right: 50px;
-        };
+        max-width: 1440px;
+        padding: 0 24px 0 24px;
     }
+
     .navbar {
         position: inherit;
         padding: {
@@ -473,10 +471,10 @@
     width: 100%;
     height: auto;
     z-index: 999;
-    padding: {
-        top: 10px;
-        bottom: 10px;
-    };
+    // padding: {
+    //     top: 10px;
+    //     bottom: 10px;
+    // };
     &.is-sticky {
         position: fixed;
         top: 0;
@@ -661,8 +659,8 @@
 
     .navbar-area {
         padding: {
-            top: 20px;
-            bottom: 20px;
+            top: 16px;
+            bottom: 16px;
         };
         &.is-sticky {
             padding: {
@@ -699,7 +697,7 @@
         .wilo-responsive-menu {
             &.mean-container {
                 position: relative;
-
+                
                 .navbar-nav {
                     overflow-y: scroll;
                     height: 306px;
