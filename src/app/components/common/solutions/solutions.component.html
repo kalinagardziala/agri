@@ -1,20 +1,136 @@
-<section class="solutions-area pb-70">
-    <div class="container">
-        <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
-            <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
-            <h2>{{sectionTitleContent.title}}</h2>
-            <p>{{sectionTitleContent.paragraphText}}</p>
+<section class="solutions-area">
+    <div class="container-fluid">
+        <div class="section-title">
+            <h2>Rozwiązania dla branży rolno-spożywczej</h2>
+            <p>
+                Poznaj oprogramowanie zwiększające produktywność dzięki
+                zintegrowanym sensorom IoT, systemom wspierającym decyzje oraz
+                optymalizującym procesy łańcucha dostaw.
+            </p>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let solutionsBoxContent of singleSolutionsBox;">
-                <div class="single-solutions-box">
-                    <div class="icon">
-                        <i class="{{solutionsBoxContent.icon}}"></i>
+    <div class="product-list">
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                    class="col-12 col-md-6 col-lg-3 col-xl-12 product-list-section"
+                >
+                    <div
+                        class="single-solutions-box single-solutions-box--green"
+                    >
+                        <img
+                            src="assets/img/Food_Pass_logo.png"
+                            alt="image"
+                            class="img-logo-Food"
+                        />
+                        <img
+                            src="assets/img/Vector_product.png"
+                            alt="image"
+                            class="img-vector-food"
+                        />
+                        <img
+                            src="assets/img/eco_plant.png"
+                            alt="image"
+                            class="img-icon-plant"
+                        />
+                        <blockquote>
+                            <p>
+                                Zarządzaj i kontroluj całym łańcuchem dostaw -
+                                od pojedyńczego pola, poprzez dystrybucje aż po
+                                przetworzenie surowców.
+                            </p>
+                            <ul>
+                                <li>Kontraktowanie dostaw</li>
+                                <li>Współpraca z dostawcami</li>
+                                <li>Kontrola jakości produktów</li>
+                                <li>Monitorowanie łańcucha dostaw</li>
+                            </ul>
+                            <a class="default-btn default-btn--orange"
+                                ><span>DOWIEDZ SIĘ WIĘCEJ</span></a
+                            >
+                        </blockquote>
                     </div>
-                    <h3><a routerLink="/{{solutionsBoxContent.link}}">{{solutionsBoxContent.title}}</a></h3>
-                    <p>{{solutionsBoxContent.paragraphText}}</p>
-                    <a routerLink="/{{solutionsBoxContent.link}}" class="view-details-btn">{{solutionsBoxContent.linkText}}</a>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-3 col-xl-12 product-list-section"
+                >
+                    <div
+                        class="single-solutions-box single-solutions-box--orange single-solutions-box--right"
+                    >
+                        <img
+                            src="assets/img/Farm_Portal_logo.png"
+                            alt="image"
+                            class="img-logo-Farm"
+                        />
+                        <img
+                            src="assets/img/Vector_farmportal.png"
+                            alt="image"
+                            class="img-vector-farm"
+                        />
+                        <img
+                            src="assets/img/smart_farm.png"
+                            alt="image"
+                            class="img-icon-farm"
+                        />
+                        <blockquote>
+                            <p>
+                                Zarządzaj i kontroluj całym łańcuchem dostaw -
+                                od pojedyńczego pola, poprzez dystrybucje aż po
+                                przetworzenie surowców.
+                            </p>
+                            <ul>
+                                <li>Kontraktowanie dostaw</li>
+                                <li>Współpraca z dostawcami</li>
+                                <li>Kontrola jakości produktów</li>
+                                <li>Monitorowanie łańcucha dostaw</li>
+                            </ul>
+
+                            <a class="default-btn default-btn--orange">
+                                <span>DOWIEDZ SIĘ WIĘCEJ</span></a
+                            >
+                        </blockquote>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-3 col-xl-12 product-list-section"
+                >
+                    <div
+                        class="single-solutions-box single-solutions-box--purple"
+                    >
+                        <img
+                            src="assets/img/Farm_Cloud_logo.png"
+                            alt="image"
+                            class="img-logo-Cloud"
+                        />
+                        <img
+                            src="assets/img/Vector_farmcloud.png"
+                            alt="image"
+                            class="img-vector-farmcloud"
+                        />
+                        <img
+                            src="assets/img/cloud_data.png"
+                            alt="image"
+                            class="img-icon-cloud"
+                        />
+                        <blockquote>
+                            <p>
+                                Zarządzaj i kontroluj całym łańcuchem dostaw -
+                                od pojedyńczego pola, poprzez dystrybucje aż po
+                                przetworzenie surowców.
+                            </p>
+                            <ul>
+                                <li>Kontraktowanie dostaw</li>
+                                <li>Współpraca z dostawcami</li>
+                                <li>Kontrola jakości produktów</li>
+                                <li>Monitorowanie łańcucha dostaw</li>
+                            </ul>
+
+                            <a class="default-btn default-btn--orange">
+                                <span>DOWIEDZ SIĘ WIĘCEJ</span></a
+                            >
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </div>
