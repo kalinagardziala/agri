@@ -1,6 +1,10 @@
 .about-area {
     position: relative;
     background-color: #f6f2ff;
+    margin-bottom: 100px;
+    @media only screen and (min-width: 1200px) {
+        background-color: #fbf9ff;
+    }
 }
 .section-title {
     margin-bottom: 0;
@@ -37,24 +41,24 @@
             flex-direction: column;
             flex-wrap: wrap;
             max-width: 156px;
-            max-height: 148px;
+            height: 148px;
             border: 2px solid #e0e0e0;
             border-radius: 8px;
-
-            height: 100%;
             padding: 0 24px;
             // position: relative;
             @media only screen and (min-width: 1200px) {
-                width: 287px;
+                max-width: 100%;
                 background-color: #dbd9e1;
-                flex-wrap: none;
-                padding: 20px 40px 20px 40px;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                height: 92px;
+                justify-content: flex-start;
             }
 
-            .img {
-                // position: absolute;
-                left: 20px;
-                top: 50%;
+            img {
+                @media only screen and (min-width: 1200px) {
+                    margin-right: 20px;
+                }
             }
             p {
                 padding-top: 7.5px;
@@ -63,6 +67,10 @@
                 font: {
                     size: 16px;
                     weight: 600;
+                }
+                @media only screen and (min-width: 1200px) {
+                    text-align: left;
+                    font-size: 20px;
                 }
             }
         }

@@ -2,6 +2,12 @@
 
 //custom scss
 
+html,
+body {
+    background: #fbf9ff;
+    overflow-x: hidden;
+}
+
 .mean-container a.meanmenu-reveal {
     span {
         &:first-child {
@@ -125,35 +131,35 @@ a {
     }
 }
 
-.ptb-100 {
-    padding: {
-        top: 100px;
-        bottom: 100px;
-    }
-}
+// .ptb-100 {
+//     padding: {
+//         top: 100px;
+//         bottom: 100px;
+//     }
+// }
 
-.pt-100 {
-    padding-top: 100px;
-}
+// .pt-100 {
+//     padding-top: 100px;
+// }
 
-.pb-100 {
-    padding-bottom: 100px;
-}
+// .pb-100 {
+//     padding-bottom: 100px;
+// }
 
-.ptb-70 {
-    padding: {
-        top: 70px;
-        bottom: 70px;
-    }
-}
+// .ptb-70 {
+//     padding: {
+//         top: 70px;
+//         bottom: 70px;
+//     }
+// }
 
-.pt-70 {
-    padding-top: 70px;
-}
+// .pt-70 {
+//     padding-top: 70px;
+// }
 
-.pb-70 {
-    padding-bottom: 70px;
-}
+// .pb-70 {
+//     padding-bottom: 70px;
+// }
 
 .bg-e3fbff {
     background-color: #e3fbff;
@@ -996,23 +1002,23 @@ Shape Img CSS
     }
 }
 
-.scientist-area {
-    position: relative;
-    z-index: 1;
+// .scientist-area {
+//     position: relative;
+//     z-index: 1;
 
-    &.bg-color {
-        &::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            z-index: -1;
-            right: 0;
-            background-color: #f1f8fb;
-            height: 247px;
-        }
-    }
-}
+//     &.bg-color {
+//         &::before {
+//             content: "";
+//             position: absolute;
+//             left: 0;
+//             bottom: 0;
+//             z-index: -1;
+//             right: 0;
+//             background-color: #f1f8fb;
+//             height: 247px;
+//         }
+//     }
+// }
 
 .process-area {
     position: relative;
@@ -1742,35 +1748,35 @@ Shape Img CSS
         max-width: 100%;
     }
 
-    .ptb-100 {
-        padding: {
-            top: 60px;
-            bottom: 60px;
-        }
-    }
+    // .ptb-100 {
+    //     padding: {
+    //         top: 60px;
+    //         bottom: 60px;
+    //     }
+    // }
 
-    .pt-100 {
-        padding-top: 60px;
-    }
+    // .pt-100 {
+    //     padding-top: 60px;
+    // }
 
-    .pb-100 {
-        padding-bottom: 60px;
-    }
+    // .pb-100 {
+    //     padding-bottom: 60px;
+    // }
 
-    .ptb-70 {
-        padding: {
-            top: 30px;
-            bottom: 30px;
-        }
-    }
+    // .ptb-70 {
+    //     padding: {
+    //         top: 30px;
+    //         bottom: 30px;
+    //     }
+    // }
 
-    .pt-70 {
-        padding-top: 30px;
-    }
+    // .pt-70 {
+    //     padding-top: 30px;
+    // }
 
-    .pb-70 {
-        padding-bottom: 30px;
-    }
+    // .pb-70 {
+    //     padding-bottom: 30px;
+    // }
 
     // .default-btn {
     //     font-size: 16px;
@@ -2050,35 +2056,35 @@ Shape Img CSS
         max-width: 720px;
     }
 
-    .ptb-100 {
-        padding: {
-            top: 80px;
-            bottom: 80px;
-        }
-    }
+    // .ptb-100 {
+    //     padding: {
+    //         top: 80px;
+    //         bottom: 80px;
+    //     }
+    // }
 
-    .pt-100 {
-        padding-top: 80px;
-    }
+    // .pt-100 {
+    //     padding-top: 80px;
+    // }
 
-    .pb-100 {
-        padding-bottom: 80px;
-    }
+    // .pb-100 {
+    //     padding-bottom: 80px;
+    // }
 
-    .ptb-70 {
-        padding: {
-            top: 50px;
-            bottom: 50px;
-        }
-    }
+    // .ptb-70 {
+    //     padding: {
+    //         top: 50px;
+    //         bottom: 50px;
+    //     }
+    // }
 
-    .pt-70 {
-        padding-top: 50px;
-    }
+    // .pt-70 {
+    //     padding-top: 50px;
+    // }
 
-    .pb-70 {
-        padding-bottom: 50px;
-    }
+    // .pb-70 {
+    //     padding-bottom: 50px;
+    // }
 
     .section-title {
         .sub-title {

@@ -1,22 +1,107 @@
-<div class="container">
-    <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle;">
+<section class="services-area">
+    <div class="sensors-models-list">
+        <div class="container-fluid">
+            <div class="row flex-xl-row-reverse">
+                <div class="col-12 col-xl-6">
+                    <div class="section-title">
+                        <div class="row">
+                            <h2>Modele wdrożenia</h2>
+                            <p>
+                                Zintegrowane produkty wspierające procesy
+                                produkcji oraz dystrybucji produktów i usług.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div
+                            class="col-6 col-md-3 col-xl-6 sensors-models-section"
+                        >
+                            <div class="single-sensors-models-box">
+                                <img
+                                    src="assets/img/Vector-models1.png"
+                                    alt="icon"
+                                />
+                                <p>Instalacja na Twoich serwerach</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-6 col-md-3 col-xl-6 sensors-models-section"
+                        >
+                            <div class="single-sensors-models-box">
+                                <img
+                                    src="assets/img/Vector-models2.png"
+                                    alt="icon"
+                                />
+                                <p>Możliwość dowolnej modyfikacji</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-6 col-md-3 col-xl-6 sensors-models-section"
+                        >
+                            <div class="single-sensors-models-box">
+                                <img
+                                    src="assets/img/Vector-models3.png"
+                                    alt="icon"
+                                />
+                                <p>Ostylowanie pod Twoją markę</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-6 col-md-3 col-xl-6 sensors-models-section"
+                        >
+                            <div class="single-sensors-models-box">
+                                <img
+                                    src="assets/img/Vector-models4.png"
+                                    alt="icon"
+                                />
+                                <p>Dedykowane moduły</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sensors-models-list__btn-container">
+                        <a class="default-btn">
+                            <span>WIĘCEJ O MODELACH WDROŻENIA</span></a
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="models-image">
+                <img
+                    class="sensors-img d-md-none d-xl-block"
+                    src="assets/img/models-img.png"
+                    alt="image"
+                />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <div class="container">
+    <div class="section-title" *ngFor="let sectionTitleContent of sectionTitle">
         <span class="sub-title"><img src="assets/img/star-icon.png" alt="image"> {{sectionTitleContent.subTitle}}</span>
         <h2>{{sectionTitleContent.title}}</h2>
         <p>{{sectionTitleContent.paragraphText}}</p>
     </div>
 
-    <div class="row">
-        <div class="col-lg-4 col-md-6" *ngFor="let processBoxContent of singleProcessBox;">
-            <div class="single-process-box">
-                <div class="number">{{processBoxContent.number}}</div>
-                <div class="image">
-                    <img [src]="processBoxContent.img" alt="image">
+        <div class="row">
+            <div
+                class="col-lg-4 col-md-6"
+                *ngFor="let processBoxContent of singleProcessBox"
+            >
+                <div class="single-process-box">
+                    <div class="number">{{ processBoxContent.number }}</div>
+                    <div class="image">
+                        <img [src]="processBoxContent.img" alt="image" />
+                    </div>
+                    <h3>{{ processBoxContent.title }}</h3>
+                    <p>{{ processBoxContent.paragraphText }}</p>
                 </div>
-                <h3>{{processBoxContent.title}}</h3>
-                <p>{{processBoxContent.paragraphText}}</p>
             </div>
         </div>
     </div>
-</div>
 
-<div class="circle-shape1"><img src="assets/img/shape/circle-shape1.png" alt="image"></div>
+    <div class="circle-shape1">
+        <img src="assets/img/shape/circle-shape1.png" alt="image" />
+    </div>
+</div> -->
