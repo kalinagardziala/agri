@@ -1,61 +1,92 @@
 .services-area {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 100px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+  @media only screen and (min-width: 1200px) {
+    margin-bottom: 150px;
+  }
 }
 .container-fluid {
-    @media only screen and (min-width: 1200px) {
-        background-color: #fbf9ff;
-    }
+  padding-bottom: 0;
+  background-color: #f6f2ff;
+  @media only screen and (min-width: 1200px) {
+    background-color: #fbf9ff;
+  }
 }
 .section-title {
-    margin-bottom: 0;
-
-    h2 {
-        margin-bottom: 24px;
-        text-align: left;
-        font: {
-            size: 32px;
-            weight: 600;
-        }
-        @media only screen and (min-width: 1200px) {
-            font-size: 56px;
-            text-align: left;
-        }
+  margin-bottom: 0;
+  max-width: 396px;
+  h2 {
+    margin-bottom: 24px;
+    text-align: left;
+    font: {
+      size: 32px;
+      weight: 600;
     }
-    p {
-        margin-bottom: 56px;
-        color: #585b6f;
-        font-size: 16px;
-        line-height: 20.8px;
-        @media only screen and (min-width: 1200px) {
-            font-size: 24px;
-            font-weight: 400;
-            margin-bottom: 64px;
-            max-width: 40%;
-            text-align: left;
-        }
+    @media only screen and (min-width: 1200px) {
+      font-size: 56px;
     }
-}
-.cooperation-section-area {
-    background-color: #f6f2ff;
-    margin: 0 -24px;
+  }
+  p {
+    color: #3a404f;
+    text-align: left;
+    font-size: 16px;
+    weight: 400;
+    @media only screen and (min-width: 1200px) {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+  }
 }
 .cooperation-section {
+  @media only screen and (min-width: 1200px) {
+    background-color: #fbf9ff;
+  }
+}
+.cooperation-section-area {
+  @media only screen and (min-width: 1200px) {
+    background-color: #fbf9ff;
+  }
+  .default-btn {
+    margin: 56px auto 80px auto;
     @media only screen and (min-width: 1200px) {
-        background-color: #fbf9ff;
+      margin: 56px 0 0 0;
     }
-    .default-btn {
-        margin: 56px auto 0 auto;
-        @media only screen and (min-width: 1200px) {
-            margin: 56px 0 0 0;
-        }
-    }
+  }
 
-    .sensors-list__btn-container {
-        display: flex;
-        justify-content: center;
+  .sensors-list__btn-container {
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 1200px) {
+      justify-content: flex-start;
     }
+  }
+}
+.cooperation-section-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #fbf9ff;
+  margin-left: -24px;
+  margin-right: -24px;
+
+  .cooperation-img {
+    max-width: 288px;
+    @media only screen and (min-width: 1200px) {
+      max-width: 504px;
+      z-index: 1;
+    }
+  }
+  .vector-cooperation {
+    display: none;
+    @media only screen and (min-width: 1200px) {
+      display: block;
+      max-width: 364px;
+      position: absolute;
+      right: 47px;
+    }
+  }
 }
 
 // .project-start-image {

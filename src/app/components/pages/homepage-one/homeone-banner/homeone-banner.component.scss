@@ -1,334 +1,330 @@
 .main-banner {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    background: {
-        color: #FBF9FF;
-        position: bottom center;
-        size: cover;
-        repeat: no-repeat;
-    };
-     .container-fluid {
-        padding-top: 284px;
-     }
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: {
+    color: #fbf9ff;
+    position: bottom center;
+    size: cover;
+    repeat: no-repeat;
+  }
+  .container-fluid {
+    padding-top: 284px;
+  }
 
-    &.without-banner-animation {
-        padding: {
-            top: 200px;
-            bottom: 250px;
-        };
-        .main-banner-content {
-            margin-top: 0;
-        }
+  &.without-banner-animation {
+    padding: {
+      top: 200px;
+      bottom: 250px;
     }
+    .main-banner-content {
+      margin-top: 0;
+    }
+  }
 }
 .main-banner-customers {
-    .container-fluid {
-        padding: 50px 24px;
-    }
-    @media only screen and (min-width: 768px) {
-        background-color: #FBF9FF;        
-        align-items: center;
-    }
-
+  .container-fluid {
+    padding: 50px 24px;
+  }
+  @media only screen and (min-width: 768px) {
+    background-color: #fbf9ff;
+    align-items: center;
+  }
 }
 .main-banner-content {
-    margin-top: -50px;
-     &__paragraph {
-        margin-bottom: 32px;
-     }
-    h1 {
-        font-size: 72px;
-        margin: {
-            bottom: 18px;
-            top: -10px;
-        }
-        text-align: left;
+  margin-top: -50px;
+  &__paragraph {
+    margin-bottom: 32px;
+    max-width: 435px;
+  }
+  h1 {
+    font-size: 72px;
+    margin: {
+      bottom: 18px;
+      top: -10px;
     }
-    .btn-box {
-        margin-top: 48px;
-        .video-btn {
-            position: absolute;
-            display: inline-block;
-            text-transform: uppercase;
-            color: var(--mainColor);
-            font: {
-                size: 16px;
-                weight: 700;
-            };
-            margin: {
-                top: -3px;
-                left: 30px;
-            };
-            i {
-                width: 55px;
-                height: 55px;
-                line-height: 56px;
-                box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .10);
-                display: inline-block;
-                text-align: center;
-                border-radius: 50%;
-                background-color: var(--whiteColor);
-                font-size: 20px;
-                margin-right: 5px;
-                transition: var(--transition);
-            }
-            &:hover {
-                i {
-                    background-color: var(--mainColor);
-                    color: var(--whiteColor);
-                }
-            }
+    text-align: left;
+  }
+  .btn-box {
+    margin-top: 48px;
+    .video-btn {
+      position: absolute;
+      display: inline-block;
+      text-transform: uppercase;
+      color: var(--mainColor);
+      font: {
+        size: 16px;
+        weight: 700;
+      }
+      margin: {
+        top: -3px;
+        left: 30px;
+      }
+      i {
+        width: 55px;
+        height: 55px;
+        line-height: 56px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        background-color: var(--whiteColor);
+        font-size: 20px;
+        margin-right: 5px;
+        transition: var(--transition);
+      }
+      &:hover {
+        i {
+          background-color: var(--mainColor);
+          color: var(--whiteColor);
         }
+      }
     }
+  }
 }
 .main-banner-col {
-    position: relative;
+  position: relative;
 }
 .main-banner-img {
-    max-width: 477px;
-    width: auto;
-    position: absolute;
-    top: -30px;
-    right: -246px;
-    
-    @media only screen and (min-width: 1200px) {
-        display: block;
-        max-width: 800px;
-        top: 225px;
-        right: 0;
-    }
-    
+  max-width: 477px;
+  width: auto;
+  position: absolute;
+  top: -30px;
+  right: -246px;
 
+  @media only screen and (min-width: 1200px) {
+    display: block;
+    max-width: 800px;
+    top: 225px;
+    right: 0;
+  }
 }
 .vector-img {
-    max-width: 305px;
-    position: absolute;
-    z-index: -1;
-    top: 103px;
-    right: -23px;
-    @media only screen and (min-width: 1200px) {
-        display: block;    
-        top: 230px;
-        right: 0;
-    }
+  max-width: 305px;
+  position: absolute;
+  z-index: -1;
+  top: 103px;
+  right: -23px;
+  @media only screen and (min-width: 1200px) {
+    display: block;
+    top: 230px;
+    right: 0;
+  }
 }
 .customers {
-
-
-    &__logo {
-        display: flex;
-        align-items: center;
-        margin-bottom: 30px;
-        @media only screen and (min-width: 768px) {
-            margin-bottom: 0;
-        }
-        @media only screen and (min-width: 1200px) {
-            margin-bottom: 0;
-            justify-content: center;
-        }
-
-        &--start {
-                justify-content: start;  
-        }
-        &--end {
-                justify-content: end;  
-            @media only screen and (min-width: 768px){
-                    justify-content: center;
-                }
-            @media only screen and (min-width: 1200px) {
-                justify-content: end;
-            }
-        }
-        &--microsoft {
-            @media only screen and (max-width: 767px){
-                max-width: 166px;
-                max-height: 34px;
-            }
-            @media only screen and (min-width: 1200px) {
-                max-width: 183px;
-                max-height: 39px;
-            }
-        }
-        &--amplus {
-            @media only screen and (max-width: 767px) {
-                max-width: 122px;
-                max-height: 35px;
-            }
-            @media only screen and (min-width: 1200px) {
-                max-width: 213px;
-                max-height: 63px;
-            }
-        }
-        &--agrosnova{
-            @media only screen and (max-width: 767px) {
-                max-width: 173px;
-                max-height: 40px;
-            }
-            @media only screen and (min-width: 1200px) {
-                max-width: 228px;
-                max-height: 51px;
-            }
-        }    
-        &--KOWR{
-            max-width: 86.4px;
-            max-height: 52px;
-            @media only screen and (min-width: 1200px) {
-                max-width: 147px;
-                max-height: 88px;
-            }
-        }
-        &--amplus-col {
-            justify-content: flex-end;
-            @media only screen and (min-width: 1200px) {
-                justify-content: center;
-            }
-        }
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 0;
     }
+    @media only screen and (min-width: 1200px) {
+      margin-bottom: 0;
+      justify-content: center;
+    }
+
+    &--start {
+      justify-content: start;
+    }
+    &--end {
+      justify-content: end;
+      @media only screen and (min-width: 768px) {
+        justify-content: center;
+      }
+      @media only screen and (min-width: 1200px) {
+        justify-content: end;
+      }
+    }
+    &--microsoft {
+      @media only screen and (max-width: 767px) {
+        max-width: 166px;
+        max-height: 34px;
+      }
+      @media only screen and (min-width: 1200px) {
+        max-width: 183px;
+        max-height: 39px;
+      }
+    }
+    &--amplus {
+      @media only screen and (max-width: 767px) {
+        max-width: 122px;
+        max-height: 35px;
+      }
+      @media only screen and (min-width: 1200px) {
+        max-width: 213px;
+        max-height: 63px;
+      }
+    }
+    &--agrosnova {
+      @media only screen and (max-width: 767px) {
+        max-width: 173px;
+        max-height: 40px;
+      }
+      @media only screen and (min-width: 1200px) {
+        max-width: 228px;
+        max-height: 51px;
+      }
+    }
+    &--KOWR {
+      max-width: 86.4px;
+      max-height: 52px;
+      @media only screen and (min-width: 1200px) {
+        max-width: 147px;
+        max-height: 88px;
+      }
+    }
+    &--amplus-col {
+      justify-content: flex-end;
+      @media only screen and (min-width: 1200px) {
+        justify-content: center;
+      }
+    }
+  }
 }
 
 .key-features-banner {
-    background-color: #FBF9FF;
+  background-color: #fbf9ff;
 
+  @media only screen and (min-width: 1200px) {
+    background-color: #f6f2ff;
+  }
+  align-items: center;
+  h1 {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 24px;
     @media only screen and (min-width: 1200px) {
-       background-color: #F6F2FF;
-    } 
-    align-items: center;
-        h1 {
-            font-size: 32px;
-            text-align: left; 
-            margin-bottom: 24px; 
-            @media only screen and (min-width: 1200px) {
-                font-size: 56px;
-                margin-bottom: 36px;
-            }       
-         }
-         &__main-paragraph {
-            margin-bottom: 72px;
-            @media only screen and (min-width: 1200px) {
-                font-size: 24px;
-                margin-bottom: 130px;
-            }
-         }
-
-    .key-feature {
-        position: relative;
-        margin-bottom: 48px;
-        @media only screen and (min-width: 1200px) {
-            margin-bottom: 0;
-        }
-
-    
-            h2 {
-                font-size: 20px;
-                font-weight: 500;
-                margin-bottom: 24px;
-                @media only screen and (min-width: 1200px){
-                    z-index: 1;
-                    font-size: 24px;
-                    font-weight: 600;
-                }
-            }
-            
-            p {
-                font-size: 16px;
-                font-weight: 400;
-                @media only screen and (min-width: 1200px){
-                    z-index: 1;
-                    font-size: 20px;
-                }
-            }
-
-            blockquote {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 34px 24px 40px 34px;
-                max-width: 327px;
-                height: 100%;
-                box-shadow: 4px 4px 32px 4px rgba(0, 0, 0, 0.08);
-                border-top-left-radius: 56px;
-                @media only screen and (min-width: 1200px) {
-                    max-width: 252px;
-                    margin-bottom: 0;
-                    padding-top: 100px;
-                }
-            }
-            img {
-                position: absolute;
-                right: 16px;
-                top: -38px;
-                @media only screen and (min-width: 1200px) {
-                    left: 24px;
-                    width: 168px;
-                    top: -18px;
-                }
-
-            }
-        &__number {
-            position: absolute;
-            font: {
-                size: 48px;
-                weight: 600;
-                font-family: 'Inter', sans-serif;
-            }
-            right: 83px;
-            top: -18px;
-            @media only screen and (min-width: 1200px) {
-                font-size: 56px;
-                top: 17px;
-                left: 42px;
-            }
-        }
-        .icon-features {
-            width: 48px;
-            top: -6px;
-            right: 27px;
-
-            @media only screen and (min-width: 1200px) {
-                width: 52px;
-                left: 80px;
-                top: 32px;
-            }
-        }
+      font-size: 56px;
+      margin-bottom: 36px;
     }
-} 
+  }
+  &__main-paragraph {
+    margin-bottom: 72px;
+    color: #2b2e3f;
+    @media only screen and (min-width: 1200px) {
+      font-size: 24px;
+      margin-bottom: 130px;
+      max-width: 567px;
+    }
+  }
 
-    @media only screen and (max-width: 767px) {
+  .key-feature {
+    position: relative;
+    margin-bottom: 48px;
+    @media only screen and (min-width: 1200px) {
+      margin-bottom: 0;
+    }
 
-        .main-banner {
-            // margin-bottom: 60px;
+    h2 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 24px;
+      max-width: 131px;
+      @media only screen and (min-width: 1200px) {
+        z-index: 1;
+        font-size: 24px;
+        font-weight: 600;
+        max-width: 166px;
+      }
+    }
 
-            .container-fluid {
-                max-width: 100%;
-            }
-        }
-        .main-banner-customers {
-            background-color: #DBD9E1;
-            align-items: center;
+    p {
+      font-size: 16px;
+      font-weight: 400;
 
-        }
-        .main-banner-content {
-            margin-top: 0;
+      @media only screen and (min-width: 1200px) {
+        z-index: 1;
+        font-size: 20px;
+      }
+    }
 
-            h1 {
-                font-size: 48px;
-                margin: {
-                    bottom: 24px;
-                    top: -5px;
-                };
-                line-height: 58px;
-            }
-            .btn-box {
-                margin: {
-                    top: 25px;
-                    bottom: -10px;
-                };
-            }
-        }
-  
-        .main-banner-image {
-            margin-top: 55px;
-        }
+    blockquote {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 34px 24px 40px 34px;
+      // max-width: 327px;
+      height: 100%;
+      box-shadow: 4px 4px 32px 4px rgba(0, 0, 0, 0.08);
+      border-top-left-radius: 56px;
+      margin-bottom: 0;
+      @media only screen and (min-width: 1200px) {
+        max-width: 252px;
+        padding-top: 100px;
+      }
+    }
+    img {
+      position: absolute;
+      right: 16px;
+      top: -38px;
+      @media only screen and (min-width: 1200px) {
+        left: 24px;
+        width: 168px;
+        top: -18px;
+      }
+    }
+    &__number {
+      position: absolute;
+      font: {
+        size: 48px;
+        weight: 600;
+        font-family: "Inter", sans-serif;
+      }
+      right: 83px;
+      top: -18px;
+      @media only screen and (min-width: 1200px) {
+        font-size: 56px;
+        top: 17px;
+        left: 42px;
+      }
+    }
+    .icon-features {
+      width: 48px;
+      top: -6px;
+      right: 27px;
+
+      @media only screen and (min-width: 1200px) {
+        width: 52px;
+        left: 80px;
+        top: 32px;
+      }
+    }
+  }
 }
 
+@media only screen and (max-width: 767px) {
+  .main-banner {
+    // margin-bottom: 60px;
+
+    .container-fluid {
+      max-width: 100%;
+    }
+  }
+  .main-banner-customers {
+    background-color: #dbd9e1;
+    align-items: center;
+  }
+  .main-banner-content {
+    margin-top: 0;
+
+    h1 {
+      font-size: 48px;
+      margin: {
+        bottom: 24px;
+        top: -5px;
+      }
+      line-height: 58px;
+    }
+    .btn-box {
+      margin: {
+        top: 25px;
+        bottom: -10px;
+      }
+    }
+  }
+
+  .main-banner-image {
+    margin-top: 55px;
+  }
+}

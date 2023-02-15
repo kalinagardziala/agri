@@ -1,0 +1,308 @@
+.aboutus-page {
+  margin-top: 40px;
+  background-color: #fbf9ff;
+  z-index: 1;
+  position: relative;
+  &__container {
+    position: relative;
+    @media only screen and (min-width: 1200px) {
+      padding-top: 128px;
+    }
+  }
+  &__title {
+    font-size: 48px;
+    font-weight: 600;
+    @media only screen and (min-width: 1200px) {
+      font-size: 72px;
+    }
+  }
+  &__img {
+    top: 52px;
+    right: -13px;
+    max-width: 203px;
+    position: absolute;
+    @media only screen and (min-width: 1200px) {
+      max-width: 816px;
+      right: -360px;
+      top: 116px;
+    }
+  }
+}
+.aboutus-area {
+  background-color: #f6f2ff;
+  position: relative;
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    @media only screen and (min-width: 1200px) {
+      font-size: 40px;
+      margin-bottom: 36px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b2e3f;
+    @media only screen and (min-width: 1200px) {
+      font-size: 20px;
+      margin-bottom: 57px;
+    }
+  }
+  .aboutus-section {
+    margin-bottom: 16px;
+    &:nth-child(3) {
+      .single-aboutus-box {
+        @media only screen and (min-width: 1200px) {
+          top: -27px;
+          position: relative;
+        }
+      }
+    }
+
+    .single-aboutus-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 156px;
+      min-height: 155px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 0 10px;
+      // position: relative;
+
+      @media only screen and (min-width: 1200px) {
+        padding: 15px 20px;
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        min-height: auto;
+        justify-content: flex-start;
+      }
+
+      img {
+        @media only screen and (min-width: 1200px) {
+          margin-right: 20px;
+        }
+      }
+      p {
+        padding-top: 7.5px;
+        text-align: center;
+        color: #2b2e3f;
+        font: {
+          size: 16px;
+          weight: 600;
+        }
+        @media only screen and (min-width: 1200px) {
+          text-align: left;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .main-banner-customers {
+    .container-fluid {
+      padding: 50px 24px;
+    }
+    @media only screen and (min-width: 768px) {
+      background-color: #f6f2ff;
+      align-items: center;
+    }
+  }
+  .customers {
+    &__logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+      @media only screen and (min-width: 1200px) {
+        margin-bottom: 0;
+        justify-content: center;
+      }
+
+      &--start {
+        justify-content: start;
+      }
+      &--end {
+        justify-content: end;
+        @media only screen and (min-width: 768px) {
+          justify-content: center;
+        }
+        @media only screen and (min-width: 1200px) {
+          justify-content: end;
+        }
+      }
+      &--microsoft {
+        @media only screen and (max-width: 767px) {
+          max-width: 166px;
+          max-height: 34px;
+        }
+        @media only screen and (min-width: 1200px) {
+          max-width: 183px;
+          max-height: 39px;
+        }
+      }
+      &--amplus {
+        @media only screen and (max-width: 767px) {
+          max-width: 122px;
+          max-height: 35px;
+        }
+        @media only screen and (min-width: 1200px) {
+          max-width: 213px;
+          max-height: 63px;
+        }
+      }
+      &--agrosnova {
+        @media only screen and (max-width: 767px) {
+          max-width: 173px;
+          max-height: 40px;
+        }
+        @media only screen and (min-width: 1200px) {
+          max-width: 228px;
+          max-height: 51px;
+        }
+      }
+      &--KOWR {
+        max-width: 86.4px;
+        max-height: 52px;
+        @media only screen and (min-width: 1200px) {
+          max-width: 147px;
+          max-height: 88px;
+        }
+      }
+      &--amplus-col {
+        justify-content: flex-end;
+        @media only screen and (min-width: 1200px) {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.aboutus2-area {
+  position: relative;
+  background-color: #f6f2ff;
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    max-width: 200px;
+    @media only screen and (min-width: 1200px) {
+      font-size: 40px;
+      margin-bottom: 36px;
+      max-width: 460px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b2e3f;
+    @media only screen and (min-width: 1200px) {
+      font-size: 20px;
+      margin-bottom: 57px;
+    }
+  }
+  .default-btn {
+    border: 1px solid #2b2e3f;
+    color: #2b2e3f;
+    background-color: #f6f2ff;
+  }
+  .aboutus2-img {
+    display: flex;
+    align-items: center;
+    padding-top: 73px;
+    padding-bottom: 0;
+    max-width: 580px;
+    margin-left: -90px;
+    @media only screen and (min-width: 1200px) {
+      max-width: 589px;
+      right: 171px;
+      top: -20px;
+      position: absolute;
+    }
+  }
+}
+.key-feature-banner {
+  background-color: #f6f2ff;
+}
+.key-feature {
+  position: relative;
+  margin-bottom: 40px;
+  @media only screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 114px;
+    top: 86px;
+    left: 40px;
+
+    @media only screen and (min-width: 1200px) {
+      z-index: 1;
+      font-size: 24px;
+      font-weight: 600;
+      max-width: 131px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 160px;
+
+    @media only screen and (min-width: 1200px) {
+      z-index: 1;
+      font-size: 20px;
+    }
+  }
+  img {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    max-width: 172px;
+
+    // @media only screen and (min-width: 1200px) {
+    // left: 16px;
+    // top: -38px;
+    // max-width: 172px;
+    // }
+  }
+  &__number {
+    position: absolute;
+    font: {
+      size: 48px;
+      weight: 600;
+      font-family: "Inter", sans-serif;
+    }
+    top: 20px;
+    left: 38px;
+    @media only screen and (min-width: 1200px) {
+      font-size: 56px;
+    }
+  }
+  .icon-features {
+    width: 48px;
+    top: 32px;
+    left: 73px;
+
+    // @media only screen and (min-width: 1200px) {
+    //   width: 52px;
+    //   left: 80px;
+    //   top: 32px;
+    // }
+  }
+  hr {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #aaadb6;
+  }
+}

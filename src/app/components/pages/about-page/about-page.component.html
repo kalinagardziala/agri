@@ -1,31 +1,174 @@
-<section class="page-title-area">
-    <div class="container">
-        <div class="page-title-content" *ngFor="let pageTitle of pageTitleArea;">
-            <h2>{{pageTitle.title}}</h2>
-            <ul>
-                <li><a routerLink="/">Home</a></li>
-                <li>{{pageTitle.title}}</li>
-            </ul>
-        </div>
+<section class="aboutus-page">
+  <div class="container-fluid aboutus-page__container">
+    <div class="row">
+      <div class="col-12 col-xl-6">
+        <h1 class="aboutus-page__title">O nas</h1>
+      </div>
+      <img
+        class="aboutus-page__img"
+        src="assets/img/aboutus-img.png"
+        alt="image"
+      />
     </div>
-
-    <div class="shape-img1"><img src="assets/img/shape/shape1.svg" alt="image"></div>
-    <div class="shape-img2"><img src="assets/img/shape/shape2.png" alt="image"></div>
-    <div class="shape-img3"><img src="assets/img/shape/shape3.png" alt="image"></div>
+  </div>
 </section>
 
-<app-aboutpage-about></app-aboutpage-about>
-
-<app-aboutpage-history></app-aboutpage-history>
-
-<section class="process-area pt-100 pb-70">
-    <app-homeone-process></app-homeone-process>
+<section class="aboutus-area">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-5 col-12">
+        <h2 class="aboutus-area__title">
+          Wyzwalamy nowe możliwości w przemyśle rolno-spożywczym
+        </h2>
+        <p class="aboutus-area__paragraph">
+          Od ponad 5 lat tworzymy zaawansowane rozwiązania dla przemysłu
+          rolno-spożywczego.
+        </p>
+      </div>
+      <div class="col-6 col-md-3 col-xl-3 aboutus-section">
+        <div class="single-aboutus-box">
+          <img src="assets/img/Vector-0.png" alt="icon" />
+          <p>5 lat na rynku</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-xl-3 aboutus-section">
+        <div class="single-aboutus-box">
+          <img src="assets/img/Vector-8.png" alt="icon" />
+          <p>20+ osobowy zespół</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-xl-3 aboutus-section">
+        <div class="single-aboutus-box">
+          <img src="assets/img/Vector-2.png" alt="icon" />
+          <p>8 stworzonych sensorów i maszyn</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3 col-xl-3 aboutus-section">
+        <div class="single-aboutus-box">
+          <img src="assets/img/Vector-7.png" alt="icon" />
+          <p>Czołowy integrator rozwiązań IT dla rolnictwa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-banner-customers">
+    <div class="container-fluid">
+      <div class="row customers">
+        <div class="col-md-3 col-6 customers__logo customers__logo--start">
+          <img
+            src="assets/img/microsoft_logo.png"
+            class="customers__logo--microsoft"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-3 col-6 customers__logo customers__logo--amplus-col">
+          <img
+            src="assets/img/amplus_logo.png"
+            class="customers__logo--amplus"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-3 col-6 customers__logo mb-0">
+          <img
+            src="assets/img/agrosnova_logo.png"
+            class="customers__logo--agrosnova"
+            alt="image"
+          />
+        </div>
+        <div class="col-md-3 col-6 customers__logo customers__logo--end mb-0">
+          <img
+            src="assets/img/KOWR_logo.png"
+            class="customers__logo--KOWR"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="scientist-area bg-color pb-70">
-    <app-homeone-scientist></app-homeone-scientist>
+<section class="aboutus2-area">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-12">
+        <h2 class="aboutus2-area__title">Poznaj nas trochę bliżej</h2>
+        <p class="aboutus2-area__paragraph">
+          Poniżej przedstawiamy się w kilku krótkich akapitach. Chcesz
+          dowiedzieć się czegoś więcej? Napisz do nas, zawsze chętnie odpowiemy
+          na Twoje pytania.
+        </p>
+      </div>
+      <div class="btn-box">
+        <a class="default-btn"><span>NAPISZ DO NAS</span></a>
+      </div>
+    </div>
+    <img class="aboutus2-img" src="assets/img/aboutus2-img.png" alt="image" />
+  </div>
 </section>
 
-<app-homeone-testimonials></app-homeone-testimonials>
-
-<app-homeone-partner></app-homeone-partner>
+<section class="key-features-banner">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-xl-4 key-feature">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/Vector_aboutus.png" alt="image" />
+            <img src="assets/img/Vector_1.png" class="icon-features" />
+            <span class="key-feature__number"> 1 </span>
+            <h2>Nasza historia</h2>
+          </div>
+          <div class="col-6">
+            <p>
+              Programista i elektronik chcą pomóc znajomemu rolnikowi zapanować
+              nad 400 hektarowym gospodarstwem.
+            </p>
+            <p>
+              Od zarządzania gospodarstwem rolnym przez monitorowanie łańcucha
+              dostaw po e-commerce.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="col-12 col-xl-4 key-feature">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/Vector_aboutus.png" alt="image" />
+            <img src="assets/img/Vector_1.png" class="icon-features" />
+            <span class="key-feature__number"> 2 </span>
+            <h2>Nasza misja</h2>
+          </div>
+          <div class="col-6">
+            <p>Automatyzować, wspomagać i optymalizować procesy produkcyjne.</p>
+            <p>
+              Integracja podmiotów działających w branży, umożliwienie wymiany
+              danych, tworzenie nowych modeli biznesowych.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="col-12 col-xl-4 key-feature">
+        <div class="row">
+          <div class="col-6">
+            <img src="assets/img/Vector_aboutus.png" alt="image" />
+            <img src="assets/img/Vector_1.png" class="icon-features" />
+            <span class="key-feature__number"> 3 </span>
+            <h2>Nasz zespół</h2>
+          </div>
+          <div class="col-6">
+            <p>
+              Bardziej niż z naszych produktów jesteśmy dumni z posiadania
+              zaangażowanego oraz interdyscyplinarnego zespołu.
+            </p>
+            <p>
+              Posiadamy ekspertów domenowych, analityków biznesowych
+              rozumiejących rolnictwo, zespół machine learning, programistów,
+              elektroników.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

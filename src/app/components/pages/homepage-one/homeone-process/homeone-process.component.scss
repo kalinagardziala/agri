@@ -1,136 +1,149 @@
 .services-area {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 60px;
+  @media only screen and (min-width: 1200px) {
+    margin-bottom: 150px;
+  }
 }
 .container-fluid {
-    padding-bottom: 0;
-    @media only screen and (min-width: 1200px) {
-        position: relative;
-        padding-right: 100px;
-        border-radius: 0px 150px 0px 0px;
-        background-color: #f6f2ff;
-        z-index: 1;
-    }
+  padding-bottom: 0;
+  @media only screen and (min-width: 1200px) {
+    position: relative;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border-radius: 0px 150px 0px 0px;
+    background-color: #f6f2ff;
+    z-index: 1;
+  }
 }
 .section-title {
-    margin-bottom: 0;
-    h2 {
-        margin-bottom: 24px;
-        text-align: left;
-        font: {
-            size: 32px;
-            weight: 600;
-        }
-        @media only screen and (min-width: 1200px) {
-            font-size: 56px;
-            text-align: center;
-        }
+  margin-bottom: 0;
+  h2 {
+    margin-bottom: 24px;
+    text-align: left;
+    font: {
+      size: 32px;
+      weight: 600;
     }
-    p {
-        margin-bottom: 56px;
-        color: #585b6f;
-        @media only screen and (min-width: 1200px) {
-            font-size: 24px;
-            font-weight: 400;
-            margin-bottom: 64px;
-        }
+    @media only screen and (min-width: 1200px) {
+      font-size: 56px;
+      text-align: left;
     }
+  }
+  p {
+    margin-bottom: 56px;
+    color: #585b6f;
+    @media only screen and (min-width: 1200px) {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 64px;
+    }
+  }
 }
 .sensors-models-list {
-    background-color: #f6f2ff;
+  background-color: #f6f2ff;
+  @media only screen and (min-width: 1200px) {
+    position: relative;
+    background-color: #fbf9ff;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: #f6f2ff;
+      margin-left: -50vw;
+      z-index: 0;
+    }
+  }
+  .sensors-models-section {
+    margin-bottom: 16px;
+    &:nth-child(3) {
+      .single-sensors-models-box {
+        @media only screen and (min-width: 1200px) {
+          top: -27px;
+          position: relative;
+        }
+      }
+    }
+
+    .single-sensors-models-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 156px;
+      min-height: 155px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 0 10px;
+      // position: relative;
+      @media only screen and (min-width: 1200px) {
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 15px 20px;
+        justify-content: flex-start;
+        min-height: auto;
+      }
+
+      img {
+        @media only screen and (min-width: 1200px) {
+          margin-right: 20px;
+        }
+      }
+      p {
+        padding-top: 7.5px;
+        text-align: center;
+        color: #2b2e3f;
+        font: {
+          size: 16px;
+          weight: 600;
+        }
+        @media only screen and (min-width: 1200px) {
+          text-align: left;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .default-btn {
+    margin: 56px auto 80px auto;
     @media only screen and (min-width: 1200px) {
-        position: relative;
-        background-color: #fbf9ff;
-        &::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            background: #f6f2ff;
-            margin-left: -50vw;
-            z-index: 0;
-        }
+      margin: 56px 0 0 0;
     }
-    .sensors-models-section {
-        margin-bottom: 16px;
+  }
 
-        .single-sensors-models-box {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            flex-wrap: wrap;
-            max-width: 156px;
-            height: 148px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 0 10px;
-            // position: relative;
-            @media only screen and (min-width: 1200px) {
-                max-width: 100%;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                height: 92px;
-                justify-content: flex-start;
-            }
-
-            img {
-                @media only screen and (min-width: 1200px) {
-                    margin-right: 20px;
-                }
-            }
-            p {
-                padding-top: 7.5px;
-                text-align: center;
-                color: #2b2e3f;
-                font: {
-                    size: 16px;
-                    weight: 600;
-                }
-                @media only screen and (min-width: 1200px) {
-                    text-align: left;
-                    font-size: 20px;
-                }
-            }
-        }
+  .sensors-list__btn-container {
+    display: flex;
+    justify-content: center;
+    @media only screen and (min-width: 1200px) {
+      justify-content: flex-start;
     }
-
-    .default-btn {
-        margin: 56px auto 80px auto;
-        @media only screen and (min-width: 1200px) {
-            margin: 56px 0 0 0;
-        }
-    }
-
-    .sensors-list__btn-container {
-        display: flex;
-        justify-content: center;
-        @media only screen and (min-width: 1200px) {
-            justify-content: flex-start;
-        }
-    }
+  }
 }
 
 .sensors-img {
-    max-width: 360px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 96px;
-    padding-bottom: 96px;
-    @media only screen and (min-width: 1200px) {
-        max-width: 513px;
-        position: absolute;
-        top: 78px;
-        left: 0px;
-        z-index: 1;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  @media only screen and (min-width: 1200px) {
+    max-width: 513px;
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    z-index: 1;
+  }
 }
 .models-image {
-    background-color: #fbf9ff;
-    margin: 0 -24px;
+  background-color: #fbf9ff;
+  margin: 0 -24px;
 }
 
 // .single-process-box {
