@@ -2,7 +2,7 @@
   <div class="container-fluid contact-page__container">
     <div class="row">
       <div class="col-12 col-xl-6">
-        <h1 class="contact-page__title">Kontakts</h1>
+        <h1 class="contact-page__title">Kontakt</h1>
       </div>
     </div>
     <img
@@ -14,9 +14,9 @@
 </section>
 
 <section class="contact-area">
-  <div class="container-fluid">
+  <div class="container-fluid container-fluid--small">
     <div class="row">
-      <div class="col-xl-5 col-12">
+      <div class="col-md-6 col-xl-5 col-12">
         <h2 class="contact-area__title">Masz pytania?</h2>
         <p class="contact-area__paragraph">
           Chcesz wiedzieć więcej? Skontaktuj się z nami <br />
@@ -41,7 +41,7 @@
             >
           </div>
         </div>
-        <div class="contact-area__box">
+        <div class="contact-area__box mb-0">
           <img
             class="contact-area__box-img"
             src="assets/img/Vector-0.png"
@@ -54,31 +54,32 @@
           </div>
         </div>
       </div>
-      <div class="col-xl-6 col-md-12 offset-xl-1">
+      <div class="col-md-6  offset-xl-1">
         <div class="contact-area__form">
           <form id="contactForm">
             <div class="row">
               <div class="col-12">
-                <div class="form-group mb-3">
-                  <input type="text" name="name" class="form-control" />
-                  <label for="name">* Twoje imię i nazwisko</label>
+                <div class="form-group contact-area__form-group">
+                  <input type="text" name="name" id="name" class="form-control" />
+                  <label  class="contact-area__form-label" for="name">* Twoje imię i nazwisko</label>
                 </div>
               </div>
               <div class="col-12">
-                <div class="form-group mb-3">
-                  <input type="email" name="email" class="form-control" />
-                  <label for="email">* Twój adres e-mail</label>
+                <div class="form-group contact-area__form-group">
+                  <input type="email" id="email" name="email" class="form-control" />
+                  <label class="contact-area__form-label" for="email">* Twój adres e-mail</label>
                 </div>
               </div>
               <div class="col-12">
-                <div class="form-group mb-3">
+                <div class="form-group">
                   <textarea
                     name="message"
-                    class="form-control form-control__textarea"
+                    class="form-control__textarea"
                     cols="30"
                     rows="6"
+                    id="message"
                   ></textarea>
-                  <label for="email">* Twoja wiadomość</label>
+                  <label class="contact-area__form-label" for="message">* Twoja wiadomość</label>
                 </div>
               </div>
               <div class="col-12">
