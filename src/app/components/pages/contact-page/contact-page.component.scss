@@ -1,5 +1,5 @@
 .contact-page {
-  margin-top: 128px;
+  margin-top: 90px;
   background-color: #fbf9ff;
   z-index: 1;
   &__container {
@@ -16,14 +16,27 @@
     }
   }
   &__img {
+    max-width: 340px;
     position: absolute;
-    top: 2px;
-    right: -107px;
+    top: 0px;
+    right: -130px;
+    @media only screen and (min-width: 767px) {
+      top: -30px;
+      max-width: 600px;
+    }
+    @media only screen and (min-width: 1200px) {
+      top: 14px;
+      max-width: 100%;
+    }
   }
 }
 
 .contact-area {
   background-color: #f6f2ff;
+  margin-bottom: 96px;
+  @media only screen and (min-width: 1200px) {
+   margin-bottom: 0;
+  }
   &__title {
     font-size: 32px;
     font-weight: 600;
@@ -34,34 +47,29 @@
     }
   }
   &__paragraph {
-    margin-bottom: 72px;
+    margin-bottom: 40px;
     font-size: 16px;
     font-weight: 400;
     color: #2b2e3f;
     @media only screen and (min-width: 1200px) {
+      margin-bottom: 72px;
       font-size: 20px;
     }
   }
   &__box {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
     border: 2px solid #e0e0e0;
     border-radius: 8px;
     padding: 24px 40px;
     margin-bottom: 20px;
-    @media only screen and (min-width: 1200px) {
-      max-width: 100%;
-      background-color: #dbd9e1;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-    }
+    background-color: #dbd9e1;
+    max-width: 100%;
     &-title {
       font-weight: 600;
       margin-bottom: 8px;
+      font-size: 16px;
+      color: #2B2E3F;
       @media only screen and (min-width: 1200px) {
         font-size: 20px;
       }
@@ -69,7 +77,9 @@
     &-text {
       font-weight: 400;
       margin-bottom: 0;
+      font-size: 16px;
       display: block;
+      color: #2B2E3F;
       @media only screen and (min-width: 1200px) {
         font-size: 20px;
       }
@@ -79,9 +89,25 @@
     }
   }
   &__form {
-    margin-top: 60px;
+    margin-top: 35px;
+    &-group {
+      margin-bottom: 10px;
+      @media only screen and (min-width: 1200px) {
+        margin-bottom: 35px;
+      }
+    }
+    &-label {
+      font-size: 16px;
+      color: #2B2E3F;
+      @media only screen and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
   }
   &__btn {
-    margin-top: 80px;
+    margin-top: 64px;
+    @media only screen and (min-width: 1200px) {
+      margin-top: 80px;
+    }
   }
 }
