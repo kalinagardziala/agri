@@ -1,12 +1,10 @@
 .contact-page {
-  margin-top: 90px;
+  margin-top: 60px;
   background-color: #fbf9ff;
   z-index: 1;
   &__container {
+    margin-top: 128px;
     position: relative;
-    @media only screen and (min-width: 1200px) {
-      padding-top: 128px;
-    }
   }
   &__title {
     font-size: 48px;

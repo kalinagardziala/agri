@@ -1,8 +1,11 @@
 .aboutus-page {
-  margin-top: 40px;
+  margin-top: 60px;
   background-color: #fbf9ff;
   z-index: 1;
   position: relative;
+  @media only screen and (min-width: 1200px) {
+    margin-top: 128px;
+  }
   &__container {
     position: relative;
     @media only screen and (min-width: 1200px) {
@@ -22,29 +25,45 @@
     max-width: 203px;
     position: absolute;
     @media only screen and (min-width: 1200px) {
-      max-width: 816px;
-      right: -360px;
-      top: 116px;
+      max-width: 761px;
+      right: -266px;
+      top: 109px;
     }
+    &--mobile {
+      @media only screen and (min-width: 1200px) {
+        display: none;
+      }
+    }
+    &--desktop {
+      display: none;
+      @media only screen and (min-width: 1200px) {
+        display: block;
+        right: 0;
+      }
+    }
+
   }
 }
 .aboutus-area {
   background-color: #f6f2ff;
   position: relative;
+
   &__title {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 24px;
+    max-width: 500px;
     @media only screen and (min-width: 1200px) {
       font-size: 40px;
       margin-bottom: 36px;
     }
   }
   &__paragraph {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
     font-size: 16px;
     font-weight: 400;
     color: #2b2e3f;
+    max-width: 350px;
     @media only screen and (min-width: 1200px) {
       font-size: 20px;
       margin-bottom: 57px;
@@ -194,7 +213,7 @@
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 24px;
-    max-width: 200px;
+    max-width: 500px;
     @media only screen and (min-width: 1200px) {
       font-size: 40px;
       margin-bottom: 36px;
@@ -206,6 +225,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #2b2e3f;
+    max-width: 400px;
     @media only screen and (min-width: 1200px) {
       font-size: 20px;
       margin-bottom: 57px;
@@ -217,11 +237,15 @@
     background-color: #f6f2ff;
   }
   .aboutus2-img {
-    display: flex;
-    align-items: center;
     padding-top: 73px;
-    max-width: 580px;
-    margin-left: -90px;
+    max-width: 533px;
+    margin-left: 29px;
+
+    &-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     @media only screen and (min-width: 1200px) {
       max-width: 589px;
       right: 171px;
@@ -233,40 +257,60 @@
 .key-features-banner {
   background-color: #f6f2ff;
   position: relative;
+  margin-bottom: 64px;
+  @media only screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
+
   .container-fluid {
+    padding-top: 10px;
     @media only screen and (min-width: 1200px) {
       padding-top: 205px;
+      margin-bottom: 0;
     }
   }
 }
 
 .key-feature {
   // position: relative;
-  margin-bottom: 16px;
-  margin-top: 40px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #aaadb6;
+   &:last-child {
+     border: none;
+   }
   @media only screen and (min-width: 1200px) {
     margin-bottom: 0;
     border-right: 1px solid #aaadb6;
     border-bottom: none;
   }
+  &__row {
+    @media only screen and (min-width: 1200px) {
+      max-width: 380px;
+      margin: 0 auto;
+    }
+  }
   &__paragraph {
     font-size: 16px;
     font-weight: 400;
-    max-width: 160px;
     line-height: 140%;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
     color: #2b2e3f;
+    p {
+      &:first-child {
+        margin-bottom: 24px;
+      }
+    }
     @media only screen and (min-width: 1200px) {
       z-index: 1;
+      margin-bottom: 0;
       font-size: 20px;
       max-width: 100%;
     }
   }
   .key-feature-box {
     @media only screen and (min-width: 1200px) {
-      position: absolute;
-      top: 4px;
+      position: relative;
+      margin-bottom: 24px;
     }
     h2 {
       position: absolute;
@@ -274,21 +318,21 @@
       font-weight: 500;
       max-width: 114px;
       top: 86px;
-      left: 40px;
+      left: 33px;
       line-height: 130%;
       @media only screen and (min-width: 1200px) {
         z-index: 1;
         font-size: 24px;
         font-weight: 600;
         max-width: 131px;
-        left: 45px;
+        left: 33px;
         top: 112px;
       }
     }
     img {
-      position: absolute;
-      left: 16px;
-      top: 0;
+      //position: absolute;
+      //left: 16px;
+      //top: 0;
       max-width: 172px;
       @media only screen and (min-width: 1200px) {
         width: 168px;
@@ -303,20 +347,21 @@
         font-family: "Inter", sans-serif;
       }
       top: 20px;
-      left: 38px;
+      left: 27px;
       @media only screen and (min-width: 1200px) {
         font-size: 56px;
-        left: 47px;
+        left: 30px;
         top: 30px;
       }
     }
     .icon-features {
+      position: absolute;
       width: 48px;
       top: 32px;
-      left: 73px;
+      left: 59px;
       @media only screen and (min-width: 1200px) {
         width: 52px;
-        left: 90px;
+        left: 70px;
         top: 44px;
       }
     }
