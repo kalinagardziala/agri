@@ -10,6 +10,9 @@
   }
   .container-fluid {
     padding-top: 284px;
+    @media only screen and (min-width: 768px) {
+      padding-bottom: 84px;
+    }
   }
 
   &.without-banner-animation {
@@ -24,7 +27,7 @@
 }
 .main-banner-customers {
   .container-fluid {
-    padding: 50px 24px;
+    padding: 72px 24px;
   }
   @media only screen and (min-width: 768px) {
     background-color: #fbf9ff;
@@ -34,14 +37,13 @@
 .main-banner-content {
   margin-top: -50px;
   &__paragraph {
-    margin-bottom: 32px;
+    margin-bottom: 56px;
     max-width: 435px;
   }
   h1 {
     font-size: 72px;
     margin: {
-      bottom: 18px;
-      top: -10px;
+      bottom: 36px;
     }
     text-align: left;
   }
@@ -190,6 +192,11 @@
     background-color: #f6f2ff;
   }
   align-items: center;
+
+  .container-fluid {
+    padding-top: 104px;
+    padding-bottom: 160px;
+  }
   h1 {
     font-size: 32px;
     text-align: left;
@@ -200,18 +207,21 @@
     }
   }
   &__main-paragraph {
-    margin-bottom: 72px;
-    color: #2b2e3f;
+    margin-bottom: 80px;
+    color: #3A404F;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
-      margin-bottom: 130px;
+      margin-bottom: 104px;
       max-width: 567px;
     }
   }
 
   .key-feature {
     position: relative;
-    margin-bottom: 48px;
+    margin-bottom: 64px;
+    &:last-child {
+      margin-bottom: 0;
+    }
     @media only screen and (min-width: 1200px) {
       margin-bottom: 0;
     }
@@ -224,6 +234,7 @@
       @media only screen and (min-width: 1200px) {
         z-index: 1;
         font-size: 24px;
+        margin-bottom: 48px;
         font-weight: 600;
         max-width: 166px;
       }
@@ -232,6 +243,7 @@
     p {
       font-size: 16px;
       font-weight: 400;
+      color: #2B2E3F;
 
       @media only screen and (min-width: 1200px) {
         z-index: 1;

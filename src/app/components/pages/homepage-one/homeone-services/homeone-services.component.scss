@@ -1,7 +1,7 @@
 .services-area {
   position: relative;
   z-index: 1;
-  margin-bottom: 60px;
+  margin-bottom: 96px;
   @media only screen and (min-width: 1200px) {
     margin-bottom: 150px;
   }
@@ -38,7 +38,7 @@
   }
   p {
     margin-bottom: 56px;
-    color: #585b6f;
+    color: #3A404F;
     text-align: left;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
@@ -125,7 +125,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 96px;
   padding-bottom: 0;
   @media only screen and (min-width: 1200px) {
     max-width: 513px;
