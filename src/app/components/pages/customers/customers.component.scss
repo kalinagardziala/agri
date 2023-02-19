@@ -1,5 +1,5 @@
 .recipients-page {
-  margin-top: 104px;
+  margin-top: 90px;
   background-color: #fbf9ff;
   z-index: 1;
   position: relative;
@@ -19,19 +19,25 @@
     }
   }
   &__img {
-    top: -42px;
-    right: -95px;
-    max-width: 257px;
+    top: -21px;
+    right: -50px;
+    max-width: 242px;
     position: absolute;
     @media only screen and (min-width: 1200px) {
       max-width: 737px;
-      right: -350px;
-      top: 158px;
+      right: 0px;
+      top: 73px;
     }
   }
 }
 .recipients-area {
   background-color: #f6f2ff;
+  .container-fluid--small {
+    @media only screen and (min-width: 1200px) {
+      padding-bottom: 160px;
+    }
+
+  }
   &__title {
     font-size: 32px;
     font-weight: 600;
@@ -47,10 +53,10 @@
     font-size: 16px;
     font-weight: 400;
     color: #2b2e3f;
-    max-width: 320px;
     @media only screen and (min-width: 1200px) {
       font-size: 20px;
-      margin-bottom: 57px;
+      line-height: 28px;
+      margin-bottom: 24px;
       max-width: 485px;
     }
   }
@@ -59,10 +65,10 @@
     font-size: 16px;
     font-weight: 400;
     color: #2b2e3f;
-    max-width: 320px;
     @media only screen and (min-width: 1200px) {
       font-size: 20px;
-      margin-bottom: 57px;
+      line-height: 28px;
+      margin-bottom: 64px;
       max-width: 485px;
     }
   }
@@ -76,8 +82,11 @@
     background-color: #f6f2ff;
     padding: 20px 30px;
     border-radius: 80px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     box-shadow: none;
+    @media only screen and (min-width: 1200px) {
+      padding: 25px 40px;
+    }
     &:hover {
       color: #f6f2ff;
       background-color: #3a404f;
