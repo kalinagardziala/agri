@@ -20,6 +20,7 @@ import { FaqPageComponent } from "./components/pages/faq-page/faq-page.component
 import { EventsDetailsPageComponent } from "./components/pages/events-details-page/events-details-page.component";
 import { CoursesPageComponent } from "./components/pages/courses-page/courses-page.component";
 import { CoursesDetailsPageComponent } from "./components/pages/courses-details-page/courses-details-page.component";
+import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
 
 const routes: Routes = [
   { path: "", component: HomepageOneComponent },
@@ -45,6 +46,7 @@ const routes: Routes = [
   { path: "customers", component: CustomersComponent },
   { path: "blog-details", component: BlogDetailsPageComponent },
   { path: "contact", component: ContactPageComponent },
+  { path: "products", component: ProductsPageComponent },
 
   // Here add new component
 

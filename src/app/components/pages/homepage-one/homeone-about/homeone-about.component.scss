@@ -1,10 +1,6 @@
 .about-area {
   position: relative;
-  background-color: #f6f2ff;
-  margin-bottom: 100px;
-  @media only screen and (min-width: 1200px) {
-    background-color: #fbf9ff;
-  }
+  background-color: #fbf9ff;
 }
 .section-title {
   margin-bottom: 0;
@@ -26,9 +22,8 @@
     }
   }
   p {
-    margin-bottom: 56px;
-
-    color: #585b6f;
+    margin-bottom: 48px;
+    color: #3A404F;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
       font-weight: 400;
@@ -38,6 +33,12 @@
   }
 }
 .recipients-list {
+  .container-fluid {
+    @media only screen and (min-width: 1200px) {
+      padding-top: 104px;
+      padding-bottom: 160px;
+    }
+  }
   .recipients-section {
     margin-bottom: 16px;
 
@@ -84,7 +85,7 @@
   }
 
   .default-btn {
-    margin: 56px auto 0 auto;
+    margin: 48px auto 0 auto;
   }
 
   .recipients-list__btn-container {

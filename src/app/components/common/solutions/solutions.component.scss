@@ -1,8 +1,13 @@
 .solutions-area {
   background-color: #2b2e3f;
-  margin-bottom: 100px;
   @media only screen and (min-width: 768px) {
     margin-bottom: 0;
+  }
+  .container-fluid {
+    @media only screen and (min-width: 1200px) {
+      padding-bottom: 104px;
+    }
+
   }
 
   .section-title {
@@ -107,7 +112,13 @@
   .product-list-section {
     align-items: center;
     position: relative;
-    margin-bottom: 160px;
+    margin-bottom: 128px;
+    @media only screen and (min-width: 1200px) {
+      margin-bottom: 192px;
+      &:last-child {
+        margin-bottom: 200px;
+      }
+    }
     p {
       font-size: 16px;
       font-weight: 400;
