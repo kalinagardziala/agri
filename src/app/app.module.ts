@@ -63,7 +63,7 @@ import { TeamPageComponent } from "./components/pages/team-page/team-page.compon
 import { ServicesPageComponent } from "./components/pages/services-page/services-page.component";
 import { ServicesDetailsPageComponent } from "./components/pages/services-details-page/services-details-page.component";
 import { ContactPageComponent } from "./components/pages/contact-page/contact-page.component";
-import { CustomersComponent } from "./components/pages/customers/customers.component";
+import { RecipientsComponent } from "./components/pages/recipients/recipients.component";
 import { BlogDetailsPageComponent } from "./components/pages/blog-details-page/blog-details-page.component";
 import { RelatedServicesComponent } from "./components/pages/services-details-page/related-services/related-services.component";
 import { CaseStudiesDetailsPageComponent } from "./components/pages/case-studies-details-page/case-studies-details-page.component";
@@ -75,6 +75,7 @@ import { CoursesPageComponent } from "./components/pages/courses-page/courses-pa
 import { CoursesDetailsPageComponent } from "./components/pages/courses-details-page/courses-details-page.component";
 import { RelatedCoursesComponent } from "./components/pages/courses-details-page/related-courses/related-courses.component";
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
+import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
 
 @NgModule({
   declarations: [
@@ -139,7 +140,7 @@ import { ProductsPageComponent } from "./components/pages/products-page/products
     ServicesPageComponent,
     ServicesDetailsPageComponent,
     ContactPageComponent,
-    CustomersComponent,
+    RecipientsComponent,
     BlogDetailsPageComponent,
     RelatedServicesComponent,
     CaseStudiesDetailsPageComponent,
@@ -151,6 +152,7 @@ import { ProductsPageComponent } from "./components/pages/products-page/products
     CoursesDetailsPageComponent,
     RelatedCoursesComponent,
     ProductsPageComponent,
+    RecipientsDetailShortComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

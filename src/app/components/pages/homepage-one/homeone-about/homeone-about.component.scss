@@ -4,7 +4,7 @@
 }
 .section-title {
   margin-bottom: 0;
-  max-width: 520px;
+  max-width: 570px;
   @media only screen and (min-width: 768px) {
     margin: 0 auto;
   }
@@ -18,16 +18,17 @@
     }
     @media only screen and (min-width: 1200px) {
       font-size: 56px;
+      margin-bottom: 36px;
       text-align: center;
     }
   }
   p {
     margin-bottom: 48px;
-    color: #3A404F;
+    color: #3a404f;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
       font-weight: 400;
-      margin-bottom: 64px;
+      margin-bottom: 56px;
       text-align: center;
     }
   }

@@ -197,6 +197,8 @@ a {
   padding: 20px 30px;
   border-radius: 80px;
   white-space: nowrap;
+  text-transform: uppercase;
+
   &:hover {
     color: #f6f2ff;
     background-color: #3a404f;
@@ -237,6 +239,16 @@ a {
       border: 2px solid #fbf9ff;
       box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
     }
+  }
+  &--border {
+    color: #2b2e3f;
+    background: none;
+    border: 1px solid #2b2e3f;
+    padding: 20px 30px;
+    letter-spacing: 1.9px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+    box-shadow: none;
+    font-variant: all-small-caps;
   }
 }
 

@@ -13,7 +13,7 @@ import { TeamPageComponent } from "./components/pages/team-page/team-page.compon
 import { ServicesPageComponent } from "./components/pages/services-page/services-page.component";
 import { ServicesDetailsPageComponent } from "./components/pages/services-details-page/services-details-page.component";
 import { ContactPageComponent } from "./components/pages/contact-page/contact-page.component";
-import { CustomersComponent } from "./components/pages/customers/customers.component";
+import { RecipientsComponent } from "./components/pages/recipients/recipients.component";
 import { BlogDetailsPageComponent } from "./components/pages/blog-details-page/blog-details-page.component";
 import { CaseStudiesDetailsPageComponent } from "./components/pages/case-studies-details-page/case-studies-details-page.component";
 import { FaqPageComponent } from "./components/pages/faq-page/faq-page.component";
@@ -21,6 +21,7 @@ import { EventsDetailsPageComponent } from "./components/pages/events-details-pa
 import { CoursesPageComponent } from "./components/pages/courses-page/courses-page.component";
 import { CoursesDetailsPageComponent } from "./components/pages/courses-details-page/courses-details-page.component";
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
+import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
 
 const routes: Routes = [
   { path: "", component: HomepageOneComponent },
@@ -43,7 +44,14 @@ const routes: Routes = [
   { path: "case-studies-details", component: CaseStudiesDetailsPageComponent },
   { path: "error", component: ErrorPageComponent },
   { path: "faq", component: FaqPageComponent },
-  { path: "customers", component: CustomersComponent },
+  {
+    path: "recipients",
+    component: RecipientsComponent,
+  },
+  {
+    path: "recipients-detail-short",
+    component: RecipientsDetailShortComponent,
+  },
   { path: "blog-details", component: BlogDetailsPageComponent },
   { path: "contact", component: ContactPageComponent },
   { path: "products", component: ProductsPageComponent },

@@ -33,7 +33,7 @@
   }
   p {
     margin-bottom: 48px;
-    color: #3A404F;
+    color: #3a404f;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
       font-weight: 400;
@@ -60,12 +60,25 @@
   }
   .sensors-models-section {
     margin-bottom: 16px;
+    &:nth-child(1) {
+      @media only screen and (min-width: 1200px) {
+        order: 0;
+      }
+    }
+    &:nth-child(2) {
+      @media only screen and (min-width: 1200px) {
+        order: 3;
+      }
+    }
+
     &:nth-child(3) {
-      .single-sensors-models-box {
-        @media only screen and (min-width: 1200px) {
-          top: -27px;
-          position: relative;
-        }
+      @media only screen and (min-width: 1200px) {
+        order: 2;
+      }
+    }
+    &:nth-child(4) {
+      @media only screen and (min-width: 1200px) {
+        order: 1;
       }
     }
 
@@ -80,6 +93,7 @@
       border: 2px solid #e0e0e0;
       border-radius: 8px;
       padding: 0 10px;
+      height: 100%;
       // position: relative;
       @media only screen and (min-width: 1200px) {
         max-width: 100%;

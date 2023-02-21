@@ -7,7 +7,6 @@
     @media only screen and (min-width: 1200px) {
       padding-bottom: 104px;
     }
-
   }
 
   .section-title {
@@ -29,6 +28,8 @@
     }
     p {
       color: #fbf9ff;
+      max-width: 572px;
+      margin: 0 auto;
     }
   }
 }
