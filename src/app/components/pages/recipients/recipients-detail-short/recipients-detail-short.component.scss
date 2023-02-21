@@ -12,6 +12,19 @@
   &--dark-bg {
     background: #2b2e3f;
     margin-top: 0;
+    @media only screen and (min-width: 1200px) {
+      position: relative;
+      background: #f6f2ff;
+      &:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 100%;
+        width: 50vw;
+        background: #2b2e3f;
+        z-index: 0;
+      }
+    }
     h2,
     p {
       color: #fbf9ff;
@@ -19,7 +32,13 @@
     .container-fluid {
       padding-bottom: 80px;
       @media only screen and (min-width: 1200px) {
+        position: inherit;
+        background: #2b2e3f;
+        z-index: 1;
         padding-bottom: 64px;
+        &:nth-child(1) {
+          border-top-right-radius: 300px;
+        }
         &:nth-child(2) {
           padding-bottom: 160px;
         }
@@ -155,10 +174,12 @@
     }
     &-link {
       color: #fbf9ff;
-      display: block;
       margin-top: 30px;
       margin-left: 48px;
       font-size: 16px;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
       &:hover,
       &:visited,
       &:focus {
@@ -244,7 +265,9 @@
   }
   &__dark-bg-title-container {
     @media only screen and (min-width: 768px) {
-      max-width: 440px;
+      h2 {
+        max-width: 440px;
+      }
     }
   }
   &__btn-list {
@@ -316,5 +339,19 @@
         margin-left: -40px;
       }
     }
+  }
+  &__business-vector-img {
+    position: absolute;
+    right: 10px;
+    top: 77px;
+  }
+  &__business-img {
+    position: absolute;
+    right: -54px;
+    top: -61px;
+    z-index: 1;
+  }
+  &__business-img-container {
+    position: relative;
   }
 }
