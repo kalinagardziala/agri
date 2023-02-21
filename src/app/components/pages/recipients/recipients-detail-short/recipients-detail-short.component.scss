@@ -33,6 +33,7 @@
     }
   }
   &--third-container {
+    padding-top: 0;
     @media only screen and (min-width: 1200px) {
       padding-top: 64px;
       padding-bottom: 96px;
@@ -120,6 +121,8 @@
     margin: 0 auto;
     @media only screen and (min-width: 1200px) {
       position: absolute;
+      right: -72px;
+      bottom: 70px;
     }
   }
   &__app-image {
@@ -132,6 +135,9 @@
     bottom: 94px;
     max-width: 170px;
     left: 95px;
+    @media only screen and (min-width: 1200px) {
+      left: 51px;
+    }
   }
   &__product-item {
     position: relative;
