@@ -76,9 +76,10 @@ import { CoursesDetailsPageComponent } from "./components/pages/courses-details-
 import { RelatedCoursesComponent } from "./components/pages/courses-details-page/related-courses/related-courses.component";
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
 import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
-import { RecipientsDetailLongComponent } from './components/pages/recipients/recipients-detail-long/recipients-detail-long.component';
-import { FoodpassPageComponent } from './components/pages/foodpass-page/foodpass-page.component';
-import { FarmportalPageComponent } from './components/pages/farmportal-page/farmportal-page.component';
+import { RecipientsDetailLongComponent } from "./components/pages/recipients/recipients-detail-long/recipients-detail-long.component";
+import { FoodpassPageComponent } from "./components/pages/foodpass-page/foodpass-page.component";
+import { FarmportalPageComponent } from "./components/pages/farmportal-page/farmportal-page.component";
+import { FarmcloudPageComponent } from "./components/pages/farmcloud-page/farmcloud-page.component";
 
 @NgModule({
   declarations: [
@@ -159,6 +160,7 @@ import { FarmportalPageComponent } from './components/pages/farmportal-page/farm
     RecipientsDetailLongComponent,
     FoodpassPageComponent,
     FarmportalPageComponent,
+    FarmcloudPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

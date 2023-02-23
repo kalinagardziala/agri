@@ -25,6 +25,7 @@ import { RecipientsDetailShortComponent } from "./components/pages/recipients/re
 import { RecipientsDetailLongComponent } from "./components/pages/recipients/recipients-detail-long/recipients-detail-long.component";
 import { FoodpassPageComponent } from "./components/pages/foodpass-page/foodpass-page.component";
 import { FarmportalPageComponent } from "./components/pages/farmportal-page/farmportal-page.component";
+import { FarmcloudPageComponent } from "./components/pages/farmcloud-page/farmcloud-page.component";
 
 const routes: Routes = [
   { path: "", component: HomepageOneComponent },
@@ -66,6 +67,10 @@ const routes: Routes = [
   {
     path: "farmportal",
     component: FarmportalPageComponent,
+  },
+  {
+    path: "farmcloud",
+    component: FarmcloudPageComponent,
   },
   { path: "blog-details", component: BlogDetailsPageComponent },
   { path: "contact", component: ContactPageComponent },
