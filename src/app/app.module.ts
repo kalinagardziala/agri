@@ -76,6 +76,7 @@ import { CoursesDetailsPageComponent } from "./components/pages/courses-details-
 import { RelatedCoursesComponent } from "./components/pages/courses-details-page/related-courses/related-courses.component";
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
 import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
+import { RecipientsDetailLongComponent } from './components/pages/recipients/recipients-detail-long/recipients-detail-long.component';
 
 @NgModule({
   declarations: [
@@ -153,6 +154,7 @@ import { RecipientsDetailShortComponent } from "./components/pages/recipients/re
     RelatedCoursesComponent,
     ProductsPageComponent,
     RecipientsDetailShortComponent,
+    RecipientsDetailLongComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -22,6 +22,7 @@ import { CoursesPageComponent } from "./components/pages/courses-page/courses-pa
 import { CoursesDetailsPageComponent } from "./components/pages/courses-details-page/courses-details-page.component";
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
 import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
+import { RecipientsDetailLongComponent } from "./components/pages/recipients/recipients-detail-long/recipients-detail-long.component";
 
 const routes: Routes = [
   { path: "", component: HomepageOneComponent },
@@ -51,6 +52,10 @@ const routes: Routes = [
   {
     path: "recipients-detail-short",
     component: RecipientsDetailShortComponent,
+  },
+  {
+    path: "recipients-detail-long",
+    component: RecipientsDetailLongComponent,
   },
   { path: "blog-details", component: BlogDetailsPageComponent },
   { path: "contact", component: ContactPageComponent },

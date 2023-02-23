@@ -1,6 +1,6 @@
 @import "src/styles";
 
-.recipients-detail-short {
+.recipients-detail-long {
   margin-top: 90px;
   @media only screen and (min-width: 1200px) {
     margin-top: 128px;
@@ -36,6 +36,14 @@
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
     }
+    &--small {
+      margin-bottom: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      @media only screen and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
   }
   &--secondary-bg {
     background: #f6f2ff;
@@ -45,6 +53,7 @@
     background: #2b2e3f;
     margin-top: 0;
     @media only screen and (min-width: 1200px) {
+      padding-top: 128px;
       position: relative;
       background: #f6f2ff;
       &:before {
@@ -62,6 +71,7 @@
       color: #fbf9ff;
     }
     .container-fluid {
+      padding-top: 64px;
       padding-bottom: 80px;
       @media only screen and (min-width: 1200px) {
         position: inherit;
@@ -79,20 +89,89 @@
     }
   }
   &--second-container {
+    padding-bottom: 40px;
     @media only screen and (min-width: 1200px) {
       padding-bottom: 0;
     }
   }
   &--third-container {
-    padding-top: 0;
+    background: #2b2e3f;
+    p,
+    h2,
+    li {
+      color: #fbf9ff;
+    }
     @media only screen and (min-width: 1200px) {
-      padding-top: 64px;
-      padding-bottom: 96px;
+      padding-top: 104px;
+      padding-bottom: 0;
+      position: relative;
+      &:before {
+        top: 0;
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 100%;
+        background: #2b2e3f;
+        z-index: 0;
+        width: 1200px;
+        border-top-right-radius: 300px;
+      }
+      &:after {
+        top: 0;
+        position: absolute;
+        content: "";
+        width: 50vw;
+        left: -50vw;
+        height: 100%;
+        background: #2b2e3f;
+        z-index: 0;
+      }
+    }
+    &-row {
+      z-index: 1;
+      position: inherit;
+    }
+    &-border {
+      @media only screen and (min-width: 1200px) {
+        padding-top: 64px;
+      }
     }
   }
   &--fourth-container {
+    background: #2b2e3f;
+    p,
+    h2,
+    li {
+      color: #fbf9ff;
+    }
     @media only screen and (min-width: 1200px) {
+      padding-top: 64px;
       padding-bottom: 160px;
+      position: relative;
+      &:before {
+        top: 0;
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 100%;
+        background: #2b2e3f;
+        z-index: 0;
+        width: 1200px;
+      }
+      &:after {
+        top: 0;
+        position: absolute;
+        content: "";
+        width: 50vw;
+        left: -50vw;
+        height: 100%;
+        background: #2b2e3f;
+        z-index: 0;
+      }
+      &-row {
+        position: inherit;
+        z-index: 1;
+      }
     }
   }
 
@@ -103,6 +182,12 @@
     padding-left: 0;
     @media only screen and (min-width: 1200px) {
       margin-top: 64px;
+      padding-bottom: 64px;
+      border-bottom: 1px solid #aaadb6;
+      .recipients-detail-long--fourth-container & {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
     }
     &-item {
       display: flex;
@@ -135,28 +220,41 @@
   }
   &__app-image-container {
     position: relative;
-    right: 20px;
-    padding-bottom: 80px;
-    max-width: 300px;
-    margin: 0 auto;
     @media only screen and (min-width: 1200px) {
       position: absolute;
-      right: -72px;
-      bottom: 70px;
+      right: -17px;
+      bottom: 430px;
     }
   }
   &__app-image {
     position: relative;
     z-index: 1;
     max-width: 200px;
+    @media only screen and (min-width: 1200px) {
+      max-width: 258px;
+    }
+
+    &-container {
+      background: #2b2e3f;
+      display: flex;
+      justify-content: center;
+      @media only screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+    &-box {
+      position: inherit;
+      max-width: 300px;
+    }
   }
   &__app-vector-image {
     position: absolute;
-    bottom: 94px;
+    bottom: 14px;
     max-width: 170px;
-    left: 95px;
+    left: 51px;
     @media only screen and (min-width: 1200px) {
-      left: 51px;
+      width: 238px;
+      max-width: none;
     }
   }
   &__product-item {
@@ -245,6 +343,7 @@
     }
     @media only screen and (min-width: 1200px) {
       left: 0;
+      padding-bottom: 160px;
       max-width: 770px;
     }
   }
@@ -257,10 +356,26 @@
     z-index: 1;
     position: inherit;
     &-container {
-      max-width: 300px;
-      margin: 0 auto;
+      background: #2b2e3f;
+      display: flex;
+      justify-content: center;
       @media only screen and (min-width: 768px) {
         display: none;
+      }
+      @media only screen and (min-width: 1200px) {
+        display: block;
+      }
+    }
+    &-box {
+      position: inherit;
+      max-width: 300px;
+      @media only screen and (min-width: 1200px) {
+        position: absolute !important;
+        top: -500px;
+        right: -200px;
+        width: 300px;
+        height: 300px;
+        background: none;
       }
     }
   }
@@ -343,12 +458,12 @@
   }
   &__business-vector-img {
     position: absolute;
-    right: 10px;
+    right: -22px;
     top: 77px;
   }
   &__business-img {
     position: absolute;
-    right: -54px;
+    right: -92px;
     top: -61px;
     z-index: 1;
   }
