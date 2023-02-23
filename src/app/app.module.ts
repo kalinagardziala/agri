@@ -77,6 +77,8 @@ import { RelatedCoursesComponent } from "./components/pages/courses-details-page
 import { ProductsPageComponent } from "./components/pages/products-page/products-page.component";
 import { RecipientsDetailShortComponent } from "./components/pages/recipients/recipients-detail-short/recipients-detail-short.component";
 import { RecipientsDetailLongComponent } from './components/pages/recipients/recipients-detail-long/recipients-detail-long.component';
+import { FoodpassPageComponent } from './components/pages/foodpass-page/foodpass-page.component';
+import { FarmportalPageComponent } from './components/pages/farmportal-page/farmportal-page.component';
 
 @NgModule({
   declarations: [
@@ -155,6 +157,8 @@ import { RecipientsDetailLongComponent } from './components/pages/recipients/rec
     ProductsPageComponent,
     RecipientsDetailShortComponent,
     RecipientsDetailLongComponent,
+    FoodpassPageComponent,
+    FarmportalPageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -189,15 +189,27 @@ a {
 
 /*default-btn*/
 .default-btn {
-  display: inline-block;
+  display: inline-flex;
   border: none;
-  text-align: center;
   background-color: var(--mainColor);
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-  padding: 20px 30px;
+  box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.08);
+  padding: 0 30px;
+  line-height: 19px;
+  height: 69px;
   border-radius: 80px;
   white-space: nowrap;
   text-transform: uppercase;
+  letter-spacing: 1.7px;
+  justify-content: center;
+  align-items: center;
+  font-variant: all-small-caps;
+  font: {
+    weight: 600;
+    size: 17px;
+  }
+  @media only screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 
   &:hover {
     color: #f6f2ff;
@@ -205,20 +217,12 @@ a {
     cursor: pointer;
   }
 
-  font: {
-    weight: 600;
-    size: 14px;
-  }
-
   @media only screen and (min-width: 1200px) {
-    padding: 25px 40px;
-    font-size: 16px;
+    padding: 0 40px;
   }
 
   span {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 1.9px;
-    line-height: 19px;
   }
 
   &--orange {
@@ -244,11 +248,7 @@ a {
     color: #2b2e3f;
     background: none;
     border: 1px solid #2b2e3f;
-    padding: 20px 30px;
-    letter-spacing: 1.9px;
-    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
-    box-shadow: none;
-    font-variant: all-small-caps;
+    box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.08);
   }
 }
 
@@ -2109,10 +2109,6 @@ Shape Img CSS
     }
   }
 
-  .default-btn {
-    font-size: 16px;
-  }
-
   .vector-shape1,
   .vector-shape2,
   .vector-shape3,
@@ -2259,10 +2255,6 @@ Shape Img CSS
     h2 {
       font-size: 36px;
     }
-  }
-
-  .default-btn {
-    font-size: 15px;
   }
 
   .footer-map {
