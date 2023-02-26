@@ -6,8 +6,10 @@
     margin-top: 128px;
   }
   &__banner {
-    position: relative;
-    top: -97px;
+    position: absolute;
+    top: 30px;
+    max-width: 330px;
+    right: 73px;
   }
   &__title {
     font-size: 48px;
