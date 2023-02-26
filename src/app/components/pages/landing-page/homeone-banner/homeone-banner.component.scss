@@ -208,7 +208,7 @@
   }
   &__main-paragraph {
     margin-bottom: 80px;
-    color: #3A404F;
+    color: #3a404f;
     @media only screen and (min-width: 1200px) {
       font-size: 24px;
       margin-bottom: 104px;
@@ -243,7 +243,7 @@
     p {
       font-size: 16px;
       font-weight: 400;
-      color: #2B2E3F;
+      color: #2b2e3f;
 
       @media only screen and (min-width: 1200px) {
         z-index: 1;
@@ -263,15 +263,28 @@
       margin-bottom: 0;
       @media only screen and (min-width: 1200px) {
         max-width: 252px;
-        padding-top: 100px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 88px;
+        padding: 100px 24px 26px 24px;
+      }
+    }
+    h2 {
+      @media only screen and (min-width: 1200px) {
+        margin-left: 20px;
+      }
+    }
+    p {
+      line-height: 22px;
+      @media only screen and (min-width: 1200px) {
+        line-height: 28px;
       }
     }
     img {
       position: absolute;
-      right: 16px;
+      right: 28px;
       top: -38px;
       @media only screen and (min-width: 1200px) {
-        left: 24px;
+        left: 37px;
         width: 168px;
         top: -18px;
       }
@@ -283,22 +296,22 @@
         weight: 600;
         font-family: "Inter", sans-serif;
       }
-      right: 83px;
+      right: 89px;
       top: -18px;
       @media only screen and (min-width: 1200px) {
         font-size: 56px;
         top: 17px;
-        left: 42px;
+        left: 55px;
       }
     }
     .icon-features {
       width: 48px;
       top: -6px;
-      right: 27px;
+      right: 37px;
 
       @media only screen and (min-width: 1200px) {
         width: 52px;
-        left: 80px;
+        left: 95px;
         top: 32px;
       }
     }

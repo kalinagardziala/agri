@@ -162,7 +162,7 @@
       &--agro {
         max-width: 103px;
         @media only screen and (min-width: 1200px) {
-          width: 142px;
+          max-width: 142px;
         }
       }
       &--iung {
@@ -445,7 +445,7 @@
 .customers-desktop {
   background: #2b2e3f;
   border-top-left-radius: 200px;
-  padding: 116px 90px 116px 120px;
+  padding: 116px 0px 116px 120px;
   position: relative;
   z-index: 1;
   .customers {
