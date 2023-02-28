@@ -1,0 +1,50 @@
+{
+    "NAVBAR": {
+        "LINKS": {
+            "PRODUCTS": {
+                "TITLE": "Products",
+                "FOODPASS": "FoodPass",
+                "FARMPORTAL" : "FarmPortal",
+                "FARMCLOUD": "FarmCloud"
+            },
+            "FOR_WHO": {
+                "TITLE": "Dla kogo?",
+                "SECTORS": "Sektory",
+                "CLIENTSANDPARTNERS" : "Klienci i partnerzy"
+            },
+            "DEVELOPMENT_MODELS" : "Modele wdrożenia",
+            "COMPANY": {
+                "TITLE": "Firma",
+                "ABOUT_US": "O nas",
+                "NEWS": "Aktualności"
+            },
+            "CONTACT": "KONTAKT"
+        }
+    },
+    "LANDING-PAGE": {
+        "BANNER": {
+
+        },
+        "POSSIBILITIES" : {
+
+        },
+        "SOLUTIONS": {
+
+        },
+        "RECIPIENTS": {
+
+        },
+        "SENSORS": {
+
+        },
+        "DEPLOYMENT MODELS": {
+
+        },
+        "COOPERATION": {
+
+        }
+    },
+    "FOOTER": {
+
+    }
+}

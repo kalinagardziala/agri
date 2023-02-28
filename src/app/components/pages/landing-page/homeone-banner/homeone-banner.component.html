@@ -6,13 +6,14 @@
           class="main-banner-content"
           *ngFor="let Content of mainBannerContent"
         >
-          <h1>Cyfrowe produkty dla branży rolno-spożywczej</h1>
+          <h1>{{ "LANDINGPAGE.BANNER.TITLE" | translate }}</h1>
           <p class="main-banner-content__paragraph">
-            Nowoczesne rozwiązania zwiększające rentowność produkcji rolno -
-            spożywczej
+            {{ "LANDINGPAGE.BANNER.PARAGRAPH" | translate }}
           </p>
           <div class="btn-box">
-            <a class="default-btn"><span>SPRAWDŹ WIĘCEJ</span></a>
+            <a class="default-btn"
+              ><span> {{ "LANDINGPAGE.BANNER.BUTTON" | translate }}</span></a
+            >
           </div>
         </div>
       </div>
@@ -66,10 +67,9 @@
     <div class="row">
       <div class="col-lg-7 col-md-10">
         <div class="key-features-content">
-          <h1>Poznaj możliwości</h1>
+          <h1>{{ "LANDINGPAGE.POSSIBILITIES.TITLE" | translate }}</h1>
           <p class="key-features-banner__main-paragraph">
-            Zintegrowane produkty wspierające procesy monitorowania, kontroli,
-            optymalizacji produkcji oraz dystrybucji produktów i usług.
+            {{ "LANDINGPAGE.POSSIBILITIES.PARAGRAPH" | translate }}
           </p>
         </div>
       </div>
@@ -80,10 +80,16 @@
         <img src="assets/img/Vector_1.png" class="icon-features" />
         <span class="key-feature__number"> 1 </span>
         <blockquote>
-          <h2>Jakość i bezpieczeństwo</h2>
+          <h2>
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.FIRST.TITLE" | translate
+            }}
+          </h2>
           <p>
-            Zabezpieczenie współpracy z dostawcami, monitoring realizacji
-            kontraktów, zapewnienie jakości surowców.
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.FIRST.PARAGRAPH"
+                | translate
+            }}
           </p>
         </blockquote>
       </div>
@@ -92,10 +98,16 @@
         <img src="assets/img/Vector_2.png" class="icon-features" />
         <span class="key-feature__number"> 2 </span>
         <blockquote>
-          <h2>Rozwój i technologia</h2>
+          <h2>
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.SECOND.TITLE" | translate
+            }}
+          </h2>
           <p>
-            Budowanie nowych cyfrowych kanałów dystrybucji produktów oraz usług
-            dla rolnictwa. Kampanie marketingowe oraz wsparcie sprzedaży.
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.SECOND.PARAGRAPH"
+                | translate
+            }}
           </p>
         </blockquote>
       </div>
@@ -104,10 +116,16 @@
         <img src="assets/img/Vector_3.png" class="icon-features" />
         <span class="key-feature__number"> 3 </span>
         <blockquote class="mb-md-0">
-          <h2>Zarządzanie i monitorowanie</h2>
+          <h2>
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.THIRD.TITLE" | translate
+            }}
+          </h2>
           <p>
-            Zarządzanie gospodarstwem rolnym oraz monitorowanie upraw za pomocą
-            telemetrii.
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.THIRD.PARAGRAPH"
+                | translate
+            }}
           </p>
         </blockquote>
       </div>
@@ -116,10 +134,16 @@
         <img src="assets/img/Vector_4.png" class="icon-features" />
         <span class="key-feature__number"> 4 </span>
         <blockquote class="mb-0">
-          <h2>Elastyczność i integracja</h2>
+          <h2>
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.FOURTH.TITLE" | translate
+            }}
+          </h2>
           <p>
-            Możliwość dowolnej rozbudowy i konfiguracji produktów oraz
-            integracji systemów informatycznych.
+            {{
+              "LANDINGPAGE.POSSIBILITIES.KEYFEATURES.FOURTH.PARAGRAPH"
+                | translate
+            }}
           </p>
         </blockquote>
       </div>

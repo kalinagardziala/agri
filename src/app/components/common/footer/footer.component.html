@@ -13,9 +13,11 @@
         <div class="single-footer-widget">
           <div class="footer-address-list">
             <span>
-              Agri Solutions Sp. z o. o. <br />Ligota Wielka 34 <br />56-400
-              Ligota Wielka <br />(+48) XXX XXX XXX <br />
-              kontakt@agrisolutions.eu
+              {{ "FOOTER.COMPANY" | translate }}<br />
+              {{ "FOOTER.STREET" | translate }}<br />
+              {{ "FOOTER.CITY" | translate }}<br />
+              {{ "FOOTER.TEL" | translate }}<br />
+              {{ "FOOTER.EMAIL" | translate }}
             </span>
           </div>
         </div>
@@ -24,8 +26,8 @@
       <div class="col-12 col-md-3 mb-5 mb-xl-0">
         <div class="single-footer-widget">
           <div class="footer-links-list">
-            <a routerLink="/team">Polityka prywatności</a>
-            <a routerLink="/services">Historia zmian</a>
+            <a routerLink="/team"> {{ "FOOTER.PRIVACY_POLICY" | translate }}</a>
+            <a routerLink="/services"> {{ "FOOTER.HISTORY" | translate }}</a>
           </div>
         </div>
       </div>
@@ -33,12 +35,7 @@
       <div class="col-12 col-md-3 mb-5 mb-xl-0">
         <div class="single-footer-widget single-footer-widget--end">
           <div class="footer-contact-info">
-            <span
-              >Agri Solutions realizuje projekt w ramach konkursu 7/1.1.1/2020
-              Szybka ścieżka – Agrotech, POIR.01.01.01-00-2267/20 - FoodPass -
-              paszportyzacja żywności oparta na platformie integracyjnej danych,
-              systemie eksperckim i technologiach sensorycznych</span
-            >
+            <span> {{ "FOOTER.TEXT" | translate }}</span>
           </div>
         </div>
       </div>
@@ -49,8 +46,4 @@
       alt="image"
     />
   </div>
-
-  <!-- <div class="footer-map"><img src="assets/img/footer-map.png" alt="image"></div> -->
 </footer>
-
-<!-- <div class="go-top"><i class="flaticon-up"></i></div> -->

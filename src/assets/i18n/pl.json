@@ -1,0 +1,457 @@
+{
+    "NAVBAR": {
+        "LINKS": {
+            "PRODUCTS": {
+                "TITLE": "Produkty",
+                "FOODPASS": "FoodPass",
+                "FARMPORTAL" : "FarmPortal",
+                "FARMCLOUD": "FarmCloud"
+            },
+            "FOR_WHO": {
+                "TITLE": "Dla kogo?",
+                "SECTORS": "Sektory",
+                "CLIENTSANDPARTNERS" : "Klienci i partnerzy"
+            },
+            "DEVELOPMENT_MODELS" : "Modele wdrożenia",
+            "COMPANY": {
+                "TITLE": "Firma",
+                "ABOUT_US": "O nas",
+                "NEWS": "Aktualności"
+            },
+            "CONTACT": "Kontakt"
+        }
+    },
+    "LANDINGPAGE": {
+        "BANNER": {
+            "TITLE": "Cyfrowe produkty dla branży rolno-spożywczej",
+            "PARAGRAPH": "Pomagamy wdrażać nowoczesne rozwiązania zwiększające rentowność produkcji rolno-spożywczej.",
+            "BUTTON": "SPRAWDŹ WIĘCEJ"
+
+        },
+        "POSSIBILITIES" : {
+            "TITLE": "Poznaj możliwości",
+            "PARAGRAPH": "Zintegrowane produkty wspierające procesy monitorowania, kontroli, optymalizacji produkcji oraz dystrybucji produktów i usług.",
+            "KEYFEATURES": {
+                "FIRST": {
+                    "TITLE": "Jakość i bezpieczeństwo",
+                    "PARAGRAPH": "Zabezpieczenie współpracy z dostawcami, monitoring realizacji kontraktów, zapewnienie jakości surowców."
+                },
+                "SECOND": {
+                    "TITLE": "Handel i marketing",
+                    "PARAGRAPH": "Budowanie nowych cyfrowych kanałów dystrybucji produktów oraz usług dla rolnictwa."
+                },
+                "THIRD": {
+                    "TITLE": "Zarządzanie i monitorowanie",
+                    "PARAGRAPH": "Zarządzanie gospodarstwem rolnym oraz monitorowanie upraw za pomocą telemetrii."
+                },
+                "FOURTH": {
+                    "TITLE": "Elastyczność i integracja",
+                    "PARAGRAPH": "Możliwość dowolnej rozbudowy i konfiguracji produktów oraz integracji systemów informatycznych."
+                }
+            }
+        },
+        "SOLUTIONS": {
+            "TITLE": "Rozwiązania dla branży rolno-spożywczej",
+            "PARAGRAPH": "Poznaj oprogramowanie zwiększające produktywność dzięki zintegrowanym sensorom IoT, systemom wspierającym decyzje oraz optymalizującym procesy łańcucha dostaw.",
+            "BUTTON": "Przeczytaj więcej",
+            "FOODPASS": {
+                "TEXT": "Kontroluj i zarządzaj całym łańcuchem  dostaw - od pojedynczego pola, poprzez dystrybucje aż po przetwarzanie surowców.",
+                "ITEM_1": "Kontraktowanie dostaw",
+                "ITEM_2": "Kontrola jakości produktów",
+                "ITEM_3": "Współpraca z dostawcami",
+                "ITEM_4": "Zdalne doradztwo"
+            },
+            "FARMPORTAL": {
+                "TEXT": "Kontroluj pracę gospodarstwa rolnego oraz zwiększ rentowność produkcji. Wykorzystaj moc sensorów IoT oraz sztucznej inteligencji.",
+                "ITEM_1": "Monitorowanie upraw",
+                "ITEM_2": "Rolnictwo precyzyjne",
+                "ITEM_3": "Wspieranie decyzji",
+                "ITEM_4": "Zarządzanie inwentarzem"
+            },
+            "FARMCLOUD": {
+                "TEXT": "Otwórz się na nowe modele biznesowe, skorzystaj z cyfrowych kanałów sprzedaży i marketingu. Bądź doradcą, nie tylko sprzedawcą!",
+                "ITEM_1": "Dystrybucja produktów i usług",
+                "ITEM_2": "Kampanie marketingowe",
+                "ITEM_3": "Zdobądź nowych klientów",
+                "ITEM_4": "Raporty i analizy rynkowe"
+            }
+        },
+        "RECIPIENTS": {
+            "TITLE": "Odbiorcy naszych produktów",
+            "PARAGRAPH": "Nasze produkty znajdują zastosowanie we wszystkich obszarach produkcji rolno - spożywczej.",
+            "BUTTON": "Sprawdź szczegóły",
+            "ITEM_1": "Producenci rolni",
+            "ITEM_2": "Dystrybutorzy owoców i warzyw",
+            "ITEM_3": "Handel i usługi",
+            "ITEM_4": "Sadownicy",
+            "ITEM_5": "Producenci sprzętu rolniczego",
+            "ITEM_6": "Przetwórcy owoców i warzyw",
+            "ITEM_7": "Ubezpieczenia",
+            "ITEM_8": "Doradztwo rolne",
+            "ITEM_9": "Ogrodnicy",
+            "ITEM_10": "Startupy"
+        },
+        "SENSORS": {
+            "TITLE": "Sensory IoT - informacje w czasie rzeczywistym",
+            "PARAGRAPH": "Wykorzystaj sensory do monitorowania oraz automatyzacji procesów - od pola po dystrybucję.",
+            "BUTTON": "Więcej o sensorach",
+            "ITEM_1": "Monitorowanie upraw",
+            "ITEM_2": "Rozwiązania Big Data, AI/ML",
+            "ITEM_3": "Dedykowane projekty i rozwiązania",
+            "ITEM_4": "Automatyczna rejestracja zabieów agrotechnicznych"
+        },
+        "DEPLOYMENT_MODELS": {
+            "TITLE": "Modele wdrożenia",
+            "PARAGRAPH": "Zintegrowane produkty wspierające procesy produkcji oraz dystrybucji produktów i usług.",
+            "BUTTON": "więcej o modelach wdrożenia",
+            "ITEM_1": "Instalacja na Twoich serwerach",
+            "ITEM_2": "Dedykowane moduły",
+            "ITEM_3": "Ostylowanie pod Twoją markę",
+            "ITEM_4": "Możliwość dowolnej modyfikacji i konfiguracji"
+        },
+        "COOPERATION": {
+            "TITLE": "Współpraca",
+            "BUTTON": "odezwij się do nas",
+            "PARAGRAPH_1": "Zapraszamy do współpracy firmy pracujące w branży rolno-spożywczej. Wraz z partnerami wdrażamy nowoczesne modele\n              współpracy handlowej oparte o wymianę informacji cross-selling oraz integrację usług.",
+            "PARAGRAPH_2": "Skorzystaj z naszych produktów i doświadczenia oraz możliwości badawczych w zakresie oprogramowania, konstrukcji sensorów IoT, integrowania rozwiązań oraz doradztwa w zakresie cyfrowej transformacji."
+        }
+    },
+    "FOOTER": {
+        "COMPANY": "Agri Solutions Sp. z o. o.",
+        "STREET": "Ligota Wielka 34",
+        "CITY": "56-400 Ligota Wielka",
+        "TEL": "(+48) XXX XXX XXX",
+        "EMAIL": "kontakt@agrisolutions.eu",
+        "PRIVACY_POLICY": "Polityka prywatności",
+        "HISTORY": "Historia zmian",
+        "TEXT": "Agri Solutions realizuje projekt w ramach konkursu 7/1.1.1/2020 Szybka ścieżka – Agrotech, POIR.01.01.01-00-2267/20 - FoodPass - paszportyzacja żywności oparta na platformie integracyjnej danych, systemie eksperckim i technologiach sensorycznych"
+    },
+    "FOODPASS": {
+        "BANNER": {
+            "TITLE": "FoodPass - zarządzanie łańcuchem dostaw",
+            "PARAGRAPH": "Skontaktuj się z nami w celu otrzymania dostępu do darmowego konta",
+            "BUTTON": "zapytaj o darmowe konto"
+        },
+        "POSSIBILITIES": {
+            "TITLE": "Poznaj możliwości",
+            "ITEM_1": "Zawieraj umowy z dostawcami, kontroluj ich realizację, monitoruj jakość dostarczanych produktów",
+            "ITEM_2": "Bądź bliżej dostawców - bezpłatnie wyposaż ich w aplikację FarmPortal dzięki, której zoptymalizują produkcję rolną",
+            "ITEM_3": "Integracja z wewnętrznymi systemami informatycznymi w przedsiębiorstwie (ERP, MRP, CRM) oraz maszynami"
+        },
+        "ADVANTAGES": {
+            "TITLE": "Korzyści",
+            "ITEM_1": "Zapewnienie dostaw surowców o wymaganej jakości oraz ilości",
+            "ITEM_2": "Optymalizacja procesu audytu upraw dostawców, kontroli jakości, obiegu informacji w przedsiębiorstwie",
+            "ITEM_3": "Wygodna współpraca z dostawcami na każdym etapie produkcji",
+            "ITEM_4": "Redukcja kosztów operacyjnych"
+        },
+        "FOR_WHO": {
+            "TITLE": "Dla kogo?",
+            "ITEM_1": "Produkcja roślinna",
+            "ITEM_2": "Warzywnictwo",
+            "ITEM_3": "Sadownictwo",
+            "ITEM_4": "Grupy producenckie"
+        },
+        "GET_KNOW_INDUSTRY": {
+            "TITLE": "Poznaj branże, w których sprawdzi się FarmPortal",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "DELIVERY_MONITORING": {
+            "TITLE": "Monitoring dostaw",
+            "PARAGRAPH": "Zapewnij sobie ciągłość wysokiej jakości dostaw surowców, zabezpiecz swoją produkcję i kontrakty. Śledź cały łańcuch - od pola do stołu.",
+            "ITEM_1": "Audyt technologów",
+            "ITEM_2": "Zdalne doradztwo",
+            "ITEM_3": "Karty pola producentów",
+            "ITEM_4": "Audyty gospodarstw"
+        },
+        "CONTRACTING_PRODUCTS": {
+            "TITLE": "Kontraktowanie produktów i towarów",
+            "PARAGRAPH": "W jednym miejscu zawieraj umowy z dostawcami, definiuj harmonogramy dostaw oraz monitoruj realizację kontraktu dzięki powiązaniu z dostawami.",
+            "ITEM_1": "Zawieranie umów",
+            "ITEM_2": "Harmonogram realizacji",
+            "ITEM_3": "Dokładna lokalizacja uprawy",
+            "ITEM_4": "Raporty i analizy"
+        },
+        "QUALITY_AND_SAFETY": {
+            "TITLE": "Kontrola jakości oraz bezpieczeństwa",
+            "PARAGRAPH": "System wspiera kontrolę bezpieczeństwa na każdym etapie produkcji - od gruntu po odbiór towaru. Dla każdej partii towaru możesz określić i udokumentować jakość.",
+            "ITEM_1": "Procedury kontroli",
+            "ITEM_2": "Opiniowanie dostaw",
+            "ITEM_3": "Zarządzanie zadaniami i badaniami",
+            "ITEM_4": "Warunkowe przyjęcia"
+        },
+        "INTEGRATION": {
+            "TITLE": "Integracja z istniejącymi procedurami",
+            "PARAGRAPH": "Zautomatyzuj istniejące procesy, połącz narzędzia w jej system wymiany danych. FoodPass w szybki i bezpieczny sposób zintegruje się z Twoją firmą.",
+            "ITEM_1": "Dedykowane raporty i analizy",
+            "ITEM_2": "Instalacja na Twoich serwerach",
+            "ITEM_3": "Integracja z systemami ERP, MRP",
+            "ITEM_4": "Rozbudowa o dodatkowe funkcje"
+        },
+        "COOPERATION": {
+            "TITLE": "Współpraca z dostawcami",
+            "PARAGRAPH": "Wyposaż dostawców w aplikację do zarządzania produkcją rolną FarmPortal. Twoi dostawcy zredukują koszty produkcji, zwiększą plony oraz jakość produktu. Wykorzystując współdzielenie danych będziesz mógł im doradzać, mitygować zagrożenia oraz zoptymalizować procesy audytu i kontroli.",
+            "ITEM_1": "Dedykowane raporty i analizy",
+            "ITEM_2": "Wgląd w karty pola",
+            "ITEM_3": "Wewnętrzny komunikator",
+            "ITEM_4": "Doradztwo"
+        },
+        "INCREASING_WORK": {
+            "TITLE": "Zwiększenie wydajności pracy",
+            "ITEM_1": "Notowania",
+            "ITEM_2": "Szybkie kontakty",
+            "ITEM_3": "Katalog produktów",
+            "ITEM_4": "Baza nawozów"
+        },
+        "GET_KNOW": {
+            "TITLE": "Dowiedz się więcej",
+            "ITEM_1": "Rolnictwo 4.0",
+            "ITEM_2": "Modele wdrożenia",
+            "ITEM_3": "FoodPass",
+            "ITEM_4": "FarmCloud"
+        },
+        "RELATED_INDUSTRIES": {
+            "TITLE": "Branże powiązane z FoodPass",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "CONTACT": {
+            "TITLE": "Kontakt",
+            "ADDRESS": "Ligota Wielka 34 <br /> 56-400 Ligota Wielka <br />(+48) XXX XXX XXX<br />kontakt@agrisolutions.eu",
+            "BUTTON": "Napisz do nas"
+        },
+        "BROCHURES": {
+            "TITLE": "Broszury",
+            "ITEM_1": "FoodPass",
+            "ITEM_2": "FarmPortal",
+            "ITEM_3": "FarmCloud",
+            "DOWNLOAD": "Broszury do pobrania",
+            "DOWNLOAD_TEXT": "Chcesz przeczytać więcej o naszych produktach? Pobierz broszury pdf."
+
+        }
+    },
+    "FARMPORTAL": {
+        "BANNER": {
+            "TITLE": "FarmPortal - monitoring i kontrola produkcji rolnej",
+            "PARAGRAPH": "Załóż darmowe konto i już dzisiaj zwiększ swój potencjał produkcyjny",
+            "BUTTON": "załóż darmowe konto"
+        },
+        "POSSIBILITIES": {
+            "TITLE": "Poznaj możliwości",
+            "ITEM_1": "Monitorowanie upraw - od lokalnych audytów, przez sensory po teledetekcję hiperspektralną. Alarmy o zagrożeniach",
+            "ITEM_2": "Wsparcie w zarządzaniu - od nawożenia po oprysk i nawadnianie. Monitorowanie GPS maszyn i pojazdów oraz automatyczne karty pola",
+            "ITEM_3": "Zestaw pomocnych narzędzi - wygodne rozwiązania do codziennej pracy na gospodarstwie dla zarządcy, agronomów i pracowników"
+        },
+        "ADVANTAGES": {
+            "TITLE": "Korzyści",
+            "ITEM_1": "Zwiększenie plonów dzięki zaleceniom oraz zapobieganiu strat na uprawach",
+            "ITEM_2": "Zmniejszenie kosztów produkcji przy zachowaniu wysokich plonów dzięki podglądowi kondycji upraw i reagowaniu na czas",
+            "ITEM_3": "Wdrożenie procedur oraz wymagań Zielonego Ładu",
+            "ITEM_4": "Optymalizacja pracy na gospodarstwie",
+            "ITEM_5": "Gromadzenie dokumentacji dla certyfikacji, kontroli, rozliczania projektów"
+        },
+        "FOR_WHO": {
+            "TITLE": "Dla kogo?",
+            "ITEM_1": "Produkcja roślinna",
+            "ITEM_2": "Warzywnictwo",
+            "ITEM_3": "Sadownictwo",
+            "ITEM_4": "Grupy producenckie"
+        },
+        "GET_KNOW_INDUSTRY": {
+            "TITLE": "Poznaj branże, w których sprawdzi się FarmPortal",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "CROP_MONITORING": {
+            "TITLE": "Monitoring upraw",
+            "PARAGRAPH": "Monitoruj i zarządzaj uprawami z wykorzystaniem sensorów, teledetekcji oraz audytów. Reaguj na zagrożenia dzięki alarmom i notyfikacjom.",
+            "ITEM_1": "Prognozy pogody",
+            "ITEM_2": "Modele chorobowe",
+            "ITEM_3": "Automatyczna rejestracja zabiegów",
+            "ITEM_4": "Obserwacja pola"
+        },
+        "FARM_INVENTORY": {
+            "TITLE": "Zarządzanie inwentarzem gospodarstwa",
+            "PARAGRAPH": "Kontroluj oraz zarządzaj zasobami gospodarstwa rolnego. W prosty i szybki sposób dodawaj działki z rejestru katastralnego.",
+            "ITEM_1": "Pracownicy",
+            "ITEM_2": "Pola i grunty",
+            "ITEM_3": "Maszyny z monitoringiem GPS",
+            "ITEM_4": "Budynki"
+        },
+        "NORMALIZATION": {
+            "TITLE": "Optymalizacja produkcji rolnej",
+            "PARAGRAPH": "Zmniejszenie kosztów produkcji przy zachowaniu wysokich plonów dzięki zastosowaniu rolnictwa precyzyjnego, intuicyjnemu systemowi zaleceń oraz wspomagania decyzji.",
+            "ITEM_1": "Badania gleb",
+            "ITEM_2": "Kalkulator nawożenia",
+            "ITEM_3": "Kalkulator emisji CO2",
+            "ITEM_4": "Zlecenie terminu oprysków"
+        },
+        "INTEGRATION": {
+            "TITLE": "Inteligentne rolnictwo - sensory IoT",
+            "PARAGRAPH": "Wykorzystaj zintegrowane rozwiązania sprzętowe do automatycznej rejestracji zabiegów na karcie pola, monitoruj uprawy w czasie rzeczywistym.",
+            "ITEM_1": "Stacje meteo",
+            "ITEM_2": "Sensory nawodnienia gleby",
+            "ITEM_3": "Automatyczna rejestracja zabiegów",
+            "ITEM_4": "Maszyny z monitoringiem GPS"
+        },
+        "ANYWHERE": {
+            "TITLE": "Gdziekolwiek jesteś",
+            "PARAGRAPH": "Niezależnie gdzie jesteś, z aplikacją mobilną FarmPortal monitorować i kontrolować co dzieje się w gospodarstwie oraz uprawach. Jesteś na bieżąco informowany dzięki alarmom i notyfikacjom.",
+            "ITEM_1": "iOS",
+            "ITEM_2": "Android"
+        },
+        "INCREASING_WORK": {
+            "TITLE": "Zwiększenie <br />wydajności pracy",
+            "ITEM_1": "Notowania",
+            "ITEM_2": "Raporty i analizy",
+            "ITEM_3": "Baza środków <br /> ochrony roślin",
+            "ITEM_4": "Certyfikaty <br /> produkcji rolnej",
+            "ITEM_5": "Gromadzenie <br /> dokumentów",
+            "ITEM_6": "Dokumentacja <br /> produkcji",
+            "ITEM_7": "Baza nawozów"
+        },
+        "GET_KNOW": {
+            "TITLE": "Dowiedz się więcej",
+            "ITEM_1": "Rolnictwo 4.0",
+            "ITEM_2": "Modele wdrożenia",
+            "ITEM_3": "FoodPass",
+            "ITEM_4": "FarmCloud"
+        },
+        "RELATED_INDUSTRIES": {
+            "TITLE": "Branże powiązane z FarmPortal",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "CONTACT": {
+            "TITLE": "Kontakt",
+            "ADDRESS": "Ligota Wielka 34 <br /> 56-400 Ligota Wielka <br />(+48) XXX XXX XXX<br />kontakt@agrisolutions.eu",
+            "BUTTON": "Napisz do nas"
+        },
+        "BROCHURES": {
+            "TITLE": "Broszury",
+            "ITEM_1": "FoodPass",
+            "ITEM_2": "FarmPortal",
+            "ITEM_3": "FarmCloud",
+            "DOWNLOAD": "Broszury do pobrania",
+            "DOWNLOAD_TEXT": "Chcesz przeczytać więcej o naszych produktach? Pobierz broszury pdf."
+
+        }
+    },
+    "FARMCLOUD": {
+        "BANNER": {
+            "TITLE": "FarmCloud - <br />e-commerce<br />dla rolnictwa",
+            "PARAGRAPH": "Skontaktuj się z nami w celu otrzymania dostępu do darmowego konta",
+            "BUTTON": "zapytaj o darmowe konto"
+        },
+        "POSSIBILITIES": {
+            "TITLE": "Poznaj możliwości",
+            "ITEM_1": "Stwórz nowe modele biznesowe oraz dystrybucji produktów i usług - bądź doradcą, nie tylko sprzedawcą",
+            "ITEM_2": "Poznaj bezpośrednie potrzeby klientów. Oferuj produkty i usługi skrojone do ich aktualnych potrzeb",
+            "ITEM_3": "Integracja z systemami CRM, sprzedaży istniejącymi w Twoim przedsiębiorstwie"
+        },
+        "ADVANTAGES": {
+            "TITLE": "Korzyści",
+            "ITEM_1": "Bezpośrednie ofertowanie na podstawie realnych potrzeb klientów",
+            "ITEM_2": "Bezpłatne wyposażenie klientów w aplikację do zarządzania gospodarstwem rolnym i uprawami",
+            "ITEM_3": "Mniejsze koszty obsługi klienta oraz działań promocyjnych",
+            "ITEM_4": "Zestaw narzędzi dla przedstawicieli handlowych - terenowych oraz w call center",
+            "ITEM_5": "Wszystkie dane klientów w jednym miejscu",
+            "ITEM_6": "Targetowane kampanie reklamowe na podstawie rzeczywistych danych"
+        },
+        "FOR_WHO": {
+            "TITLE": "Dla kogo?",
+            "ITEM_1": "Handel i usługi",
+            "ITEM_2": "Producenci sprzętu rolnego",
+            "ITEM_3": "Doradztwo rolne"
+        },
+        "GET_KNOW_INDUSTRY": {
+            "TITLE": "Poznaj branże, w których sprawdzi się FarmPortal",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "RELATIONS": {
+            "TITLE": "Budowanie relacji z klientami",
+            "PARAGRAPH": "Wykorzystaj przekazane przez klientów dane* do stworzenia lepszych warunków współpracy, dedykowanych ofert i szybszej obsługi.",
+            "ITEM_1": "Zarządzanie klientami",
+            "ITEM_2": "Wsparcie i doradztwo",
+            "ITEM_3": "Wymiana informacji",
+            "ITEM_4": "Raporty i analizy",
+            "SMALL_PARAGRAPH": "*użytkownicy mają pełną kontrolę nad wymianą danych, a ich\n                udostępnienie wymaga ich jednorazowej zgody"
+        },
+        "SELLER": {
+            "TITLE": "Świadomy sprzedawca",
+            "PARAGRAPH": "Spraw, aby Twoi handlowcy i przedstawiciele terenowi byli spostrzegani jako doradcy a nie sprzedawcy. Zredukuj koszty obsługi klienta.",
+            "ITEM_1": "Profile klientów",
+            "ITEM_2": "Bezpośrednie ofertowanie",
+            "ITEM_3": "Analizy potrzeb"
+        },
+        "CAMPANIES": {
+            "TITLE": "Targetowane kampanie reklamowe",
+            "PARAGRAPH": "Precyzyjnie określ grupę odbiorców produktu na podstawie charakteru i rodzaju produkcji. Sprzedawaj więcej zmniejszając nakłady pracy.",
+            "ITEM_1": "Dobór produktów",
+            "ITEM_2": "Określanie grupy odbiorców"
+        },
+        "TOOLS": {
+            "TITLE": "Poznaj na nowo Twoje narzędzia",
+            "PARAGRAPH": "FarmCloud został zaprojektowany do łatwej integracji z zewnętrznymi systemami informatycznymi. W bezpieczny sposób wspomożemy Twoją cyfrową transformacje.",
+            "ITEM_1": "White labeling",
+            "ITEM_2": "Instalacja na Twoich serwerach",
+            "ITEM_3": "Integracja z systemami ERP, MRP",
+            "ITEM_4": "Rozbudowa o dodatkowe funkcje"
+        },
+        "FREE_TOOLS": {
+            "TITLE": "Pakiet bezpłatnych narzędzi dla Twoich klientów",
+            "PARAGRAPH": "Wspomóż klientów w redukcji kosztów i strat, zwiększ ich plony. Podaruj im licencję programu FarmPortal. Wykorzystując współdzielenie danych będziesz mógł im doradzać, otrzymywać zapytania ofertowe oraz prowadzić kampanie reklamowe.\nOczywiście za zgodą Twoich klientów.",
+            "ITEM_1": "Bezpłatne cyfrowe narzędzia",
+            "ITEM_2": "Zarządzanie inwentarzem",
+            "ITEM_3": "Monitorowanie upraw"
+        },
+        "INCREASING_WORK": {
+            "TITLE": "Zwiększenie <br />wydajności pracy",
+            "ITEM_1": "Notatki",
+            "ITEM_2": "Szybkie kontakty",
+            "ITEM_3": "Baza nawozów",
+            "ITEM_4": "Wskazówki dojazdu",
+            "ITEM_5": "Aplikacja mobilna"
+        },
+        "GET_KNOW": {
+            "TITLE": "Dowiedz się więcej",
+            "ITEM_1": "Rolnictwo 4.0",
+            "ITEM_2": "Modele wdrożenia",
+            "ITEM_3": "FoodPass",
+            "ITEM_4": "FarmCloud"
+        },
+        "RELATED_INDUSTRIES": {
+            "TITLE": "Branże powiązane z FarmPortal",
+            "ITEM_1": "dystrybutorzy owoców i warzyw",
+            "ITEM_2": "doradztwo rolne",
+            "ITEM_3": "ubezpieczenia",
+            "ITEM_4": "startupy"
+        },
+        "CONTACT": {
+            "TITLE": "Kontakt",
+            "ADDRESS": "Ligota Wielka 34 <br /> 56-400 Ligota Wielka <br />(+48) XXX XXX XXX<br />kontakt@agrisolutions.eu",
+            "BUTTON": "Napisz do nas"
+        },
+        "BROCHURES": {
+            "TITLE": "Broszury",
+            "ITEM_1": "FoodPass",
+            "ITEM_2": "FarmPortal",
+            "ITEM_3": "FarmCloud",
+            "DOWNLOAD": "Broszury do pobrania",
+            "DOWNLOAD_TEXT": "Chcesz przeczytać więcej o naszych produktach? Pobierz broszury pdf."
+
+        }
+    }
+}

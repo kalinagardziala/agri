@@ -25,7 +25,18 @@ import { RecipientsDetailLongComponent } from "./components/pages/recipients/rec
 import { FoodpassPageComponent } from "./components/pages/foodpass-page/foodpass-page.component";
 import { FarmportalPageComponent } from "./components/pages/farmportal-page/farmportal-page.component";
 import { FarmcloudPageComponent } from "./components/pages/farmcloud-page/farmcloud-page.component";
-import { ReinforcementModelsComponent } from './components/pages/reinforcement-models/reinforcement-models.component';
+import { ReinforcementModelsComponent } from "./components/pages/reinforcement-models/reinforcement-models.component";
+import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
+import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import { NgSelectModule, NgOption } from "@ng-select/ng-select";
+import { FormsModule } from "@angular/forms";
+import { NgxSelectModule } from "ngx-select-ex";
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
+}
 
 @NgModule({
   declarations: [
@@ -54,7 +65,22 @@ import { ReinforcementModelsComponent } from './components/pages/reinforcement-m
     HomeoneProcessComponent,
     ReinforcementModelsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: "pl",
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
+    NgxSelectModule,
+    FormsModule,
+    NgSelectModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -27,7 +27,8 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link not"
-                >Produkty <i class="bx bx-chevron-down"></i
+                >{{ "NAVBAR.LINKS.PRODUCTS.TITLE" | translate }}
+                <i class="bx bx-chevron-down"></i
               ></a>
               <ul class="dropdown-menu">
                 <li class="nav-item">
@@ -38,7 +39,7 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >FoodPass</a
+                    >{{ "NAVBAR.LINKS.PRODUCTS.FOODPASS" | translate }}</a
                   >
                 </li>
 
@@ -50,7 +51,7 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >FarmPortal</a
+                    >{{ "NAVBAR.LINKS.PRODUCTS.FARMPORTAL" | translate }}</a
                   >
                 </li>
                 <li class="nav-item">
@@ -61,14 +62,15 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >FarmCloud</a
+                    >{{ "NAVBAR.LINKS.PRODUCTS.FARMCLOUD" | translate }}</a
                   >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link"
-                >Dla kogo? <i class="bx bx-chevron-down"></i
+                >{{ "NAVBAR.LINKS.FOR_WHO.TITLE" | translate }}
+                <i class="bx bx-chevron-down"></i
               ></a>
               <ul class="dropdown-menu">
                 <li class="nav-item">
@@ -79,7 +81,7 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >Sektory</a
+                    >{{ "NAVBAR.LINKS.FOR_WHO.SECTORS" | translate }}</a
                   >
                 </li>
 
@@ -91,7 +93,9 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >Klienci i partnerzy</a
+                    >{{
+                      "NAVBAR.LINKS.FOR_WHO.CLIENTSANDPARTNERS" | translate
+                    }}</a
                   >
                 </li>
               </ul>
@@ -102,12 +106,15 @@
                 class="nav-link"
                 routerLinkActive="active"
                 [routerLinkActiveOptions]="{ exact: true }"
-                >Modele wdrożenia</a
+                >{{ "NAVBAR.LINKS.DEVELOPMENT_MODELS" | translate }}</a
               >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link">Firma <i class="bx bx-chevron-down"></i></a>
+              <a class="nav-link"
+                >{{ "NAVBAR.LINKS.COMPANY.TITLE" | translate }}
+                <i class="bx bx-chevron-down"></i
+              ></a>
               <ul class="dropdown-menu">
                 <li class="nav-item">
                   <a
@@ -117,7 +124,7 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >O nas</a
+                    >{{ "NAVBAR.LINKS.COMPANY.ABOUT_US" | translate }}</a
                   >
                 </li>
 
@@ -129,17 +136,24 @@
                     [routerLinkActiveOptions]="{
                       exact: true
                     }"
-                    >Aktualności</a
+                    >{{ "NAVBAR.LINKS.COMPANY.NEWS" | translate }}</a
                   >
                 </li>
               </ul>
             </li>
 
             <li class="nav-item">
-              <a routerLink="/contact" class="nav-link nav-link--no-padding"
-                >Kontakt</a
-              >
+              <a routerLink="/contact" class="nav-link nav-link--no-padding">{{
+                "NAVBAR.LINKS.CONTACT" | translate
+              }}</a>
             </li>
+            <ngx-select
+              [defaultValue]="[translate.getDefaultLang()]"
+              [items]="translate.getLangs()"
+              (select)="changeTranslation($event)"
+              [noAutoComplete]="true"
+            >
+            </ngx-select>
           </ul>
         </div>
       </nav>

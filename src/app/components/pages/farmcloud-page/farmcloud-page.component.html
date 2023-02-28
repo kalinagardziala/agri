@@ -2,14 +2,16 @@
   <div class="container-fluid products--first-container">
     <div class="row">
       <div class="col-12 col-md-8">
-        <h1 class="products__title">
-          FarmCloud - <br />
-          e-commerce <br />dla rolnictwa
-        </h1>
+        <h1
+          [innerHTML]="'FARMCLOUD.BANNER.TITLE' | translate"
+          class="products__title"
+        ></h1>
         <p class="products__title-p">
-          Skontaktuj się z nami w celu otrzymania dostępu do darmowego konta
+          {{ "FARMCLOUD.BANNER.PARAGRAPH" | translate }}
         </p>
-        <a class="default-btn" href="/contact">Zapytaj o darmowe konto</a>
+        <a class="default-btn" href="/contact">
+          {{ "FARMCLOUD.BANNER.BUTTON" | translate }}</a
+        >
       </div>
       <div
         class="col-md-4 d-none d-md-block d-xl-flex justify-content-xl-center"
@@ -33,19 +35,18 @@
         >
           <div class="row">
             <div class="col-12 col-xl-10">
-              <h2 class="products__title--small">Poznaj możliwości</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.POSSIBILITIES.TITLE" | translate }}
+              </h2>
               <ul class="products__list">
                 <li class="products__list-item">
-                  Stwórz nowe modele biznesowe oraz dystrybucji produktów i
-                  usług - bądź doradcą, nie tylko sprzedawcą
+                  {{ "FARMCLOUD.POSSIBILITIES.ITEM_1" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Poznaj bezpośrednie potrzeby klientów. Oferuj produkty i
-                  usługi skrojone do ich aktualnych potrzeb
+                  {{ "FARMCLOUD.POSSIBILITIES.ITEM_2" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Integracja z systemami CRM, sprzedaży istniejącymi w Twoim
-                  przedsiębiorstwie
+                  {{ "FARMCLOUD.POSSIBILITIES.ITEM_3" | translate }}
                 </li>
               </ul>
             </div>
@@ -56,26 +57,27 @@
         >
           <div class="row">
             <div class="col-12 col-xl-10">
-              <h2 class="products__title--small">Korzyści</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.ADVANTAGES.TITLE" | translate }}
+              </h2>
               <ul class="products__list mt-xl-0">
                 <li class="products__list-item">
-                  Bezpośrednie ofertowanie na podstawie realnych potrzeb
-                  klientów
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_1" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Bezpłatne wyposażenie klientów w aplikację do zarządzania
-                  gospodarstwem rolnym i uprawami
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_2" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Zestaw narzędzi dla przedstawicieli handlowych - terenowych
-                  oraz w call center
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_3" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Wszystkie dane klientów w jednym miejscu
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_4" | translate }}
                 </li>
                 <li class="products__list-item">
-                  Targetowane kampanie reklamowe na podstawie rzeczywistych
-                  danych
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_5" | translate }}
+                </li>
+                <li class="products__list-item">
+                  {{ "FARMCLOUD.ADVANTAGES.ITEM_6" | translate }}
                 </li>
               </ul>
             </div>
@@ -84,18 +86,24 @@
         <div class="container-fluid pb-md-0">
           <div class="row">
             <div class="col-12 col-xl-9">
-              <h2 class="products__title--small">Dla kogo?</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.FOR_WHO.TITLE" | translate }}
+              </h2>
               <div class="row products__gray-box-row">
                 <div class="col-12 col-md-6">
-                  <div class="products__gray-box">Handel i usługi</div>
-                </div>
-                <div class="col-12 col-md-6">
                   <div class="products__gray-box">
-                    Producenci sprzętu rolnego
+                    {{ "FARMCLOUD.FOR_WHO.ITEM_1" | translate }}
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
-                  <div class="products__gray-box">Doradztwo rolne</div>
+                  <div class="products__gray-box">
+                    {{ "FARMCLOUD.FOR_WHO.ITEM_2" | translate }}
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="products__gray-box">
+                    {{ "FARMCLOUD.FOR_WHO.ITEM_3" | translate }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -105,27 +113,27 @@
           <div class="row">
             <div class="col-12 col-xl-10">
               <h2 class="products__title--small">
-                Poznaj branże, w których sprawdzi się FarmPortal
+                {{ "FARMCLOUD.GET_KNOW_INDUSTRY.TITLE" | translate }}
               </h2>
               <div class="row products__btn-row">
                 <div class="col-12 col-md-6">
                   <a href="#" class="default-btn default-btn--border d-flex">
-                    dystrybutorzy owoców i warzyw
+                    {{ "FARMCLOUD.GET_KNOW_INDUSTRY.ITEM_1" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
                   <a href="#" class="default-btn default-btn--border d-flex">
-                    doradztwo rolne
+                    {{ "FARMCLOUD.GET_KNOW_INDUSTRY.ITEM_2" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
                   <a href="#" class="default-btn default-btn--border d-flex">
-                    ubezpieczenia
+                    {{ "FARMCLOUD.GET_KNOW_INDUSTRY.ITEM_3" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
                   <a href="#" class="default-btn default-btn--border d-flex">
-                    startupy
+                    {{ "FARMCLOUD.GET_KNOW_INDUSTRY.ITEM_4" | translate }}
                   </a>
                 </div>
               </div>
@@ -146,44 +154,41 @@
           <div class="row">
             <div class="col-12 col-xl-9">
               <h2 class="products__title--small">
-                Budowanie relacji z klientami
+                {{ "FARMCLOUD.RELATIONS.TITLE" | translate }}
               </h2>
               <p class="products__paragraph">
-                Wykorzystaj przekazane przez klientów dane* do stworzenia
-                lepszych warunków współpracy, dedykowanych ofert i szybszej
-                obsługi.
+                {{ "FARMCLOUD.RELATIONS.PARAGRAPH" | translate }}
               </p>
               <div class="row products__box-row">
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Zarządzanie klientami</p>
+                    <p>{{ "FARMCLOUD.RELATIONS.ITEM_1" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Wsparcie i doradztwo</p>
+                    <p>{{ "FARMCLOUD.RELATIONS.ITEM_2" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Wymiana informacji</p>
+                    <p>{{ "FARMCLOUD.RELATIONS.ITEM_3" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Raporty i analizy</p>
+                    <p>{{ "FARMCLOUD.RELATIONS.ITEM_4" | translate }}</p>
                   </div>
                 </div>
               </div>
               <p
                 class="products__paragraph products__paragraph--small d-none d-xl-block"
               >
-                *użytkownicy mają pełną kontrolę nad wymianą danych, a ich
-                udostępnienie wymaga ich jednorazowej zgody
+                {{ "FARMCLOUD.RELATIONS.SMALL_PARAGRAPH" | translate }}
               </p>
             </div>
           </div>
@@ -191,29 +196,29 @@
         <div class="container-fluid pb-0">
           <div class="row">
             <div class="col-12 col-xl-10">
-              <h2 class="products__title--small">Świadomy sprzedawca</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.SELLER.TITLE" | translate }}
+              </h2>
               <p class="products__paragraph">
-                Spraw, aby Twoi handlowcy i przedstawiciele terenowi byli
-                spostrzegani jako doradcy a nie sprzedawcy. Zredukuj koszty
-                obsługi klienta.
+                {{ "FARMCLOUD.SELLER.PARAGRAPH" | translate }}
               </p>
               <div class="row products__box-row">
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Profile klientów</p>
+                    <p>{{ "FARMCLOUD.SELLER.ITEM_1" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Bezpośrednie ofertowanie</p>
+                    <p>{{ "FARMCLOUD.SELLER.ITEM_2" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Analizy potrzeb</p>
+                    <p>{{ "FARMCLOUD.SELLER.ITEM_3" | translate }}</p>
                   </div>
                 </div>
               </div>
@@ -224,24 +229,22 @@
           <div class="row">
             <div class="col-12 col-xl-10">
               <h2 class="products__title--small">
-                Targetowane kampanie reklamowe
+                {{ "FARMCLOUD.CAMPANIES.TITLE" | translate }}
               </h2>
               <p class="products__paragraph">
-                Precyzyjnie określ grupę odbiorców produktu na podstawie
-                charakteru i rodzaju produkcji. Sprzedawaj więcej zmniejszając
-                nakłady pracy.
+                {{ "FARMCLOUD.CAMPANIES.PARAGRAPH" | translate }}
               </p>
               <div class="row products__box-row">
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Dobór produktów</p>
+                    <p>{{ "FARMCLOUD.CAMPANIES.ITEM_1" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Określanie grupy odbiorców</p>
+                    <p>{{ "FARMCLOUD.CAMPANIES.ITEM_2" | translate }}</p>
                   </div>
                 </div>
               </div>
@@ -252,36 +255,34 @@
           <div class="row">
             <div class="col-12 col-xl-10">
               <h2 class="products__title--small">
-                Poznaj na nowo Twoje narzędzia
+                {{ "FARMCLOUD.TOOLS.TITLE" | translate }}
               </h2>
               <p class="products__paragraph">
-                FarmCloud został zaprojektowany do łatwej integracji z
-                zewnętrznymi systemami informatycznymi. W bezpieczny sposób
-                wspomożemy Twoją cyfrową transformacje.
+                {{ "FARMCLOUD.TOOLS.PARAGRAPH" | translate }}
               </p>
               <div class="row products__box-row">
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>White labeling</p>
+                    <p>{{ "FARMCLOUD.TOOLS.ITEM_1" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Instalacja na Twoich serwerach</p>
+                    <p>{{ "FARMCLOUD.TOOLS.ITEM_2" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Integracja z systemami ERP, MRP</p>
+                    <p>{{ "FARMCLOUD.TOOLS.ITEM_3" | translate }}</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="products__box-border">
                     <img src="assets/img/Vector-4.png" alt="icon" />
-                    <p>Rozbudowa o dodatkowe funkcje</p>
+                    <p>{{ "FARMCLOUD.TOOLS.ITEM_4" | translate }}</p>
                   </div>
                 </div>
               </div>
@@ -296,40 +297,42 @@
             <div class="col-12">
               <div class="products__brands">
                 <p class="products__paragraph--gray">
-                  Branże powiązane z FarmPortal
+                  {{ "FARMCLOUD.RELATED_INDUSTRIES.TITLE" | translate }}
                 </p>
                 <div class="products__btn-list">
                   <a class="default-btn default-btn--border mb-3" href="#">
-                    dystrybutorzy owoców i warzyw
+                    {{ "FARMCLOUD.RELATED_INDUSTRIES.ITEM_1" | translate }}
                   </a>
                   <a class="default-btn default-btn--border mb-3" href="#">
-                    doradztwo rolne
+                    {{ "FARMCLOUD.RELATED_INDUSTRIES.ITEM_2" | translate }}
                   </a>
                   <a class="default-btn default-btn--border mb-3" href="#">
-                    ubezpieczenia
+                    {{ "FARMCLOUD.RELATED_INDUSTRIES.ITEM_3" | translate }}
                   </a>
                   <a class="default-btn default-btn--border" href="#">
-                    startupy
+                    {{ "FARMCLOUD.RELATED_INDUSTRIES.ITEM_4" | translate }}
                   </a>
                 </div>
               </div>
               <div class="products__contact-section">
-                <p class="products__paragraph--gray">Kontakt</p>
-                <p class="products__contact-section-p">
-                  Ligota Wielka 34 <br />
-                  56-400 Ligota Wielka <br />
-                  (+48) XXX XXX XXX<br />
-                  kontakt@agrisolutions.eu
+                <p class="products__paragraph--gray">
+                  {{ "FARMCLOUD.CONTACT.TITLE" | translate }}
                 </p>
+                <p
+                  class="products__contact-section-p"
+                  [innerHTML]="'FARMCLOUD.CONTACT.ADDRESS' | translate"
+                ></p>
                 <a
                   class="default-btn default-btn--border d-flex"
                   routerLink="/contact"
                 >
-                  napisz do nas
+                  {{ "FARMCLOUD.CONTACT.BUTTON" | translate }}
                 </a>
               </div>
               <div class="products__contact-section">
-                <p class="products__paragraph--gray">Broszury</p>
+                <p class="products__paragraph--gray">
+                  {{ "FARMCLOUD.BROCHURES.ITEM_1" | translate }}
+                </p>
                 <div>
                   <div class="products__contact-link-container">
                     <a class="products__contact-link" href="#">
@@ -369,31 +372,28 @@
     <div class="row align-items-xl-start">
       <div class="col-12 col-xl-6 products__dark-bg-title-container">
         <h2 class="products__title--small">
-          Pakiet bezpłatnych narzędzi dla Twoich klientów
+          {{ "FARMCLOUD.FREE_TOOLS.TITLE" | translate }}
         </h2>
         <p class="products__paragraph">
-          Wspomóż klientów w redukcji kosztów i strat, zwiększ ich plony.
-          Podaruj im licencję programu FarmPortal. Wykorzystując współdzielenie
-          danych będziesz mógł im doradzać, otrzymywać zapytania ofertowe oraz
-          prowadzić kampanie reklamowe. Oczywiście za zgodą Twoich klientów.
+          {{ "FARMCLOUD.FREE_TOOLS.PARAGRAPH" | translate }}
         </p>
         <div class="row products__box-row">
           <div class="col-6">
             <div class="products__box-border products__box-border--dark">
               <img src="assets/img/vector-white.png" alt="icon" />
-              <p>Bezpłatne cyfrowe narzędzia</p>
+              <p>{{ "FARMCLOUD.FREE_TOOLS.ITEM_1" | translate }}</p>
             </div>
           </div>
           <div class="col-6">
             <div class="products__box-border products__box-border--dark">
               <img src="assets/img/vector-white.png" alt="icon" />
-              <p>Zarządzanie inwentarzem</p>
+              <p>{{ "FARMCLOUD.FREE_TOOLS.ITEM_2" | translate }}</p>
             </div>
           </div>
           <div class="col-6">
             <div class="products__box-border products__box-border--dark">
               <img src="assets/img/vector-white.png" alt="icon" />
-              <p>Monitorowanie upraw</p>
+              <p>{{ "FARMCLOUD.FREE_TOOLS.ITEM_3" | translate }}</p>
             </div>
           </div>
         </div>
@@ -416,26 +416,41 @@
         </div>
         <div class="container-fluid pt-0">
           <div class="row">
-            <div class="col-12 col-xl-12">
-              <h2 class="products__title--small">
-                Zwiększenie <br />
-                wydajności pracy
-              </h2>
+            <div class="col-12 col-xl-8">
+              <h2
+                [innerHTML]="'FARMCLOUD.INCREASING_WORK.TITLE' | translate"
+                class="products__title--small"
+              ></h2>
               <div class="row products__gray-box-row">
-                <div class="col-12 col-md-4">
-                  <div class="products__gray-box">Notatki</div>
+                <div class="col-12 col-md-6">
+                  <div
+                    [innerHTML]="'FARMCLOUD.INCREASING_WORK.ITEM_1' | translate"
+                    class="products__gray-box"
+                  ></div>
                 </div>
-                <div class="col-12 col-md-4">
-                  <div class="products__gray-box">Szybkie kontakty</div>
+                <div class="col-12 col-md-6">
+                  <div
+                    class="products__gray-box"
+                    [innerHTML]="'FARMCLOUD.INCREASING_WORK.ITEM_2' | translate"
+                  ></div>
                 </div>
-                <div class="col-12 col-md-4">
-                  <div class="products__gray-box">Baza nawozów</div>
+                <div class="col-12 col-md-6">
+                  <div
+                    class="products__gray-box"
+                    [innerHTML]="'FARMCLOUD.INCREASING_WORK.ITEM_3' | translate"
+                  ></div>
                 </div>
-                <div class="col-12 col-md-4">
-                  <div class="products__gray-box">Wskazówki dojazdu</div>
+                <div class="col-12 col-md-6">
+                  <div
+                    class="products__gray-box"
+                    [innerHTML]="'FARMCLOUD.INCREASING_WORK.ITEM_4' | translate"
+                  ></div>
                 </div>
-                <div class="col-12 col-md-4">
-                  <div class="products__gray-box">Aplikacja mobilna</div>
+                <div class="col-12 col-md-6">
+                  <div
+                    class="products__gray-box"
+                    [innerHTML]="'FARMCLOUD.INCREASING_WORK.ITEM_5' | translate"
+                  ></div>
                 </div>
               </div>
             </div>
@@ -444,10 +459,11 @@
         <div class="container-fluid pt-0 d-xl-none">
           <div class="row">
             <div class="col-12 col-xl-6">
-              <h2 class="products__title--small">Broszury do pobrania</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.BROCHURES.DOWNLOAD" | translate }}
+              </h2>
               <p class="products__paragraph">
-                Chcesz przeczytać więcej o naszych produktach? Pobierz broszury
-                pdf.
+                {{ "FARMCLOUD.BROCHURES.DOWNLOAD_TEXT" | translate }}
               </p>
               <ul class="products__documents">
                 <li class="products__documents-item">
@@ -475,26 +491,40 @@
         <div class="container-fluid pt-0 products__get-know-container">
           <div class="row">
             <div class="col-12 col-xl-8">
-              <h2 class="products__title--small">Dowiedz się więcej</h2>
+              <h2 class="products__title--small">
+                {{ "FARMCLOUD.GET_KNOW.TITLE" | translate }}
+              </h2>
               <div class="row products__btn-row">
                 <div class="col-12 col-md-6">
-                  <a href="#" class="default-btn default-btn--border d-flex">
-                    Rolnictwo 4.0
+                  <a
+                    href="/agriculture"
+                    class="default-btn default-btn--border d-flex"
+                  >
+                    {{ "FARMCLOUD.GET_KNOW.ITEM_1" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
-                  <a href="#" class="default-btn default-btn--border d-flex">
-                    Modele wdrożenia
+                  <a
+                    href="/deployments-models"
+                    class="default-btn default-btn--border d-flex"
+                  >
+                    {{ "FARMCLOUD.GET_KNOW.ITEM_2" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
-                  <a href="#" class="default-btn default-btn--border d-flex">
-                    FoodPass
+                  <a
+                    href="/farmportal"
+                    class="default-btn default-btn--border d-flex"
+                  >
+                    {{ "FARMCLOUD.GET_KNOW.ITEM_3" | translate }}
                   </a>
                 </div>
                 <div class="col-12 col-md-6">
-                  <a href="#" class="default-btn default-btn--border d-flex">
-                    FarmCloud
+                  <a
+                    href="/farmcloud"
+                    class="default-btn default-btn--border d-flex"
+                  >
+                    {{ "FARMCLOUD.GET_KNOW.ITEM_4" | translate }}
                   </a>
                 </div>
               </div>
