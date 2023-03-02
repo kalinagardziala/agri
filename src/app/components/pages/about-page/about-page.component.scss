@@ -25,9 +25,9 @@
     max-width: 203px;
     position: absolute;
     @media only screen and (min-width: 1200px) {
-      max-width: 761px;
+      max-width: 43%;
       right: -266px;
-      top: 109px;
+      top: 160px;
     }
     &--mobile {
       @media only screen and (min-width: 1200px) {
@@ -41,7 +41,6 @@
         right: 0;
       }
     }
-
   }
 }
 .aboutus-area {
@@ -99,7 +98,8 @@
         max-width: 100%;
         flex-direction: row;
         flex-wrap: nowrap;
-        min-height: auto;
+        min-height: 88px;
+        height: 100%;
         justify-content: flex-start;
       }
 
@@ -231,11 +231,6 @@
       margin-bottom: 57px;
     }
   }
-  .default-btn {
-    border: 1px solid #2b2e3f;
-    color: #2b2e3f;
-    background-color: #f6f2ff;
-  }
   .aboutus2-img {
     padding-top: 73px;
     max-width: 533px;
@@ -275,9 +270,9 @@
   // position: relative;
   margin-bottom: 40px;
   border-bottom: 1px solid #aaadb6;
-   &:last-child {
-     border: none;
-   }
+  &:last-child {
+    border: none;
+  }
   @media only screen and (min-width: 1200px) {
     margin-bottom: 0;
     border-right: 1px solid #aaadb6;

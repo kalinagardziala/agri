@@ -2,7 +2,9 @@
   <div class="container-fluid recipients-page__container">
     <div class="row">
       <div class="col-12 col-xl-8">
-        <h1 class="recipients-page__title">Odbiorcy naszych produktów</h1>
+        <h1 class="recipients-page__title">
+          {{ "RECIPIENTS.TITLE" | translate }}
+        </h1>
       </div>
     </div>
   </div>
@@ -16,18 +18,14 @@
   <div class="container-fluid container-fluid--small">
     <div class="row">
       <div class="col-12 col-xl-6">
-        <h2 class="recipients-area__title">Znajdź swoją branżę</h2>
+        <h2 class="recipients-area__title">
+          {{ "RECIPIENTS.FIND_YOUR_INDUSTRY" | translate }}
+        </h2>
         <p class="recipients-area__paragraph">
-          Produkcja rolno-spożywcza jest siecią powiązań między wieloma
-          podmiotami począwszy od rolników, firmy handlowo-usługowe, koncerny
-          chemiczne, kończąc na konsumentach.
+          {{ "RECIPIENTS.FIND_YOUR_INDUSTRY_TEXT" | translate }}
         </p>
         <p class="recipients-area__paragraph2">
-          Dostępne w naszej ofercie produkty umożliwiają lepszą współpracę
-          pomiędzy podmiotami działającymi w produkcji rolno-spożywczej poprzez
-          budowanie relacji biznesowych, optymalizacje procesowe i produktowe,
-          tworzenie nowych modeli biznesowych, wymianę informacji oraz skracanie
-          łańcucha dostaw.
+          {{ "RECIPIENTS.FIND_YOUR_INDUSTRY_TEXT_2" | translate }}
         </p>
       </div>
     </div>
@@ -35,29 +33,43 @@
       <div class="col-12 col-xl-10 d-xl-flex flex-xl-wrap ps-xl-0">
         <div class="btn-box me-xl-4">
           <a href="/recipients-detail-short" class="default-btn"
-            ><span>PRODUCENCI ROLNI</span></a
+            ><span> {{ "RECIPIENTS.ITEM_1" | translate }}</span></a
           >
         </div>
         <div class="btn-box me-xl-4">
-          <a href="/startup" class="default-btn"><span>STARTUPY</span></a>
+          <a href="/startup" class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_2" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>UBEZPIECZENIA</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_3" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>HANDEL I USŁUGI</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_4" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>DYSTRYBUTORZY OWOCÓW I WARZYW</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_5" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>PRODUCENCI SPRZĘTU ROLNEGO</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_6" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>DORADZTWO ROLNE</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_7" | translate }}</span></a
+          >
         </div>
         <div class="btn-box me-xl-4">
-          <a class="default-btn"><span>PRZETWÓRCY OWOCÓW I WARZYW</span></a>
+          <a class="default-btn"
+            ><span>{{ "RECIPIENTS.ITEM_8" | translate }}</span></a
+          >
         </div>
       </div>
     </div>

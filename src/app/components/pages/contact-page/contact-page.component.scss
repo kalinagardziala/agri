@@ -33,7 +33,7 @@
   background-color: #f6f2ff;
   margin-bottom: 96px;
   @media only screen and (min-width: 1200px) {
-   margin-bottom: 0;
+    margin-bottom: 0;
   }
   &__title {
     font-size: 32px;
@@ -67,17 +67,18 @@
       font-weight: 600;
       margin-bottom: 8px;
       font-size: 16px;
-      color: #2B2E3F;
+      color: #2b2e3f;
       @media only screen and (min-width: 1200px) {
         font-size: 20px;
       }
     }
     &-text {
+      line-height: 24px;
       font-weight: 400;
       margin-bottom: 0;
       font-size: 16px;
       display: block;
-      color: #2B2E3F;
+      color: #2b2e3f;
       @media only screen and (min-width: 1200px) {
         font-size: 20px;
       }
@@ -96,7 +97,7 @@
     }
     &-label {
       font-size: 16px;
-      color: #2B2E3F;
+      color: #2b2e3f;
       @media only screen and (min-width: 1200px) {
         font-size: 20px;
       }

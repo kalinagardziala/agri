@@ -453,5 +453,22 @@
             "DOWNLOAD_TEXT": "Chcesz przeczytać więcej o naszych produktach? Pobierz broszury pdf."
 
         }
+    },
+    "RECIPIENTS": {
+        "TITLE": "Odbiorcy naszych produktów",
+        "FIND_YOUR_INDUSTRY": "Znajdź swoją branżę",
+        "FIND_YOUR_INDUSTRY_TEXT": "Produkcja rolno-spożywcza jest siecią powiązań między wieloma podmiotami począwszy od rolników, firmy handlowo-usługowe, koncerny chemiczne, kończąc na konsumentach.",
+        "FIND_YOUR_INDUSTRY_TEXT_2": "Dostępne w naszej ofercie produkty umożliwiają lepszą współpracę pomiędzy podmiotami działającymi w produkcji rolno-spożywczej poprzez budowanie relacji biznesowych, optymalizacje procesowe i produktowe, tworzenie nowych modeli biznesowych, wymianę informacji oraz skracanie łańcucha dostaw.",
+        "ITEM_1": "Producenci rolni",
+        "I EM_2": "producenci sprzętu rolnego",
+        "ITEM_3": "Handel i usługi",
+        "ITEM_4": "dystrybutorzy owoców i warzyw",
+        "ITEM_5": "doradztwo rolne",
+        "ITEM_6": "ubezpieczenia",
+        "ITEM_7": "startupy",
+        "ITEM_8": "przetwórcy owoców i warzyw"
+    },
+    "CLIENTS_AND_PARTNERS": {
+        "TITLE": "Dołącz do grona klientów i partnerów"
     }
 }

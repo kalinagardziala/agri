@@ -54,20 +54,80 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6  offset-xl-1">
+      <div class="col-md-6 offset-xl-1">
         <div class="contact-area__form">
-          <form id="contactForm">
+          <form
+            [formGroup]="contactForm"
+            id="contactForm"
+            (ngSubmit)="onSubmit()"
+          >
             <div class="row">
               <div class="col-12">
                 <div class="form-group contact-area__form-group">
-                  <input type="text" name="name" id="name" class="form-control" />
-                  <label  class="contact-area__form-label" for="name">* Twoje imię i nazwisko</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    formControlName="name"
+                    [style.border-color]="
+                      email.invalid && (email.dirty || email.touched)
+                        ? '#dc3545'
+                        : '#2b2e3f'
+                    "
+                  />
+                  <label class="contact-area__form-label" for="name"
+                    >* Twoje imię i nazwisko</label
+                  >
+                  <div
+                    [style.display]="
+                      name.invalid && (name.dirty || name.touched)
+                        ? 'block'
+                        : 'none'
+                    "
+                    class="invalid-feedback"
+                  >
+                    To pole jest wymagane.
+                  </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-group contact-area__form-group">
-                  <input type="email" id="email" name="email" class="form-control" />
-                  <label class="contact-area__form-label" for="email">* Twój adres e-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    formControlName="email"
+                    [style.border-color]="
+                      email.invalid && (email.dirty || email.touched)
+                        ? '#dc3545'
+                        : '#2b2e3f'
+                    "
+                  />
+                  <label class="contact-area__form-label" for="email"
+                    >* Twój adres e-mail</label
+                  >
+                  <div
+                    [style.display]="
+                      email.invalid && (email.dirty || email.touched)
+                        ? 'block'
+                        : 'none'
+                    "
+                    class="invalid-feedback"
+                  >
+                    To pole jest wymagane.
+                  </div>
+                  <div
+                    [style.display]="
+                      email.errors?.['email'] && (email.dirty || email.touched)
+                        ? 'block'
+                        : 'none'
+                    "
+                    class="invalid-feedback"
+                  >
+                    Proszę wprowadzić poprawny adres email.
+                  </div>
                 </div>
               </div>
               <div class="col-12">
@@ -78,15 +138,35 @@
                     cols="30"
                     rows="6"
                     id="message"
+                    formControlName="message"
+                    [style.border-color]="
+                      message.invalid && (message.dirty || message.touched)
+                        ? '#dc3545'
+                        : '#2b2e3f'
+                    "
                   ></textarea>
-                  <label class="contact-area__form-label" for="message">* Twoja wiadomość</label>
+                  <label class="contact-area__form-label" for="message"
+                    >* Twoja wiadomość</label
+                  >
+                  <div
+                    [style.display]="
+                      message.invalid && (message.dirty || message.touched)
+                        ? 'block'
+                        : 'none'
+                    "
+                    class="invalid-feedback"
+                  >
+                    To pole jest wymagane.
+                  </div>
                 </div>
               </div>
               <div class="col-12">
-                <div class="btn-box">
-                  <a class="default-btn contact-area__btn"
-                    ><span>WYŚLIJ WIADOMOŚĆ</span></a
-                  >
+                <div
+                  class="btn-box d-flex justify-content-center justify-content-md-start"
+                >
+                  <button type="submit" class="default-btn contact-area__btn">
+                    <span>WYŚLIJ WIADOMOŚĆ</span>
+                  </button>
                 </div>
               </div>
             </div>

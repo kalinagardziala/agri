@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.invalid-feedback {
+  font-size: 12px;
+}
+
 .mean-container a.meanmenu-reveal {
   span {
     &:first-child {
@@ -249,6 +253,10 @@ a {
     background: none;
     border: 1px solid #2b2e3f;
     box-shadow: 4px 4px 16px 4px rgba(0, 0, 0, 0.08);
+    &:hover {
+      color: #f6f2ff;
+      background-color: #2b2e3f;
+    }
   }
 }
 
