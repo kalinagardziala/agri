@@ -1,5 +1,5 @@
 <section class="recipients-detail-short">
-  <div class="container-fluid">
+  <div class="container-fluid recipients-detail-short__banner-container">
     <div class="row">
       <div class="col-12 col-md-8">
         <h1 class="recipients-detail-short__title d-md-none">
@@ -220,7 +220,7 @@
   <div class="container-fluid">
     <div class="row">
       <div
-        class="col-12 col-md-8 col-xl-5 recipients-detail-short__dark-bg-title-container"
+        class="col-12 col-md-6 col-xl-5 recipients-detail-short__dark-bg-title-container"
       >
         <h2 class="recipients-detail-short__title--small">
           Nasze produkty dla tego sektora
@@ -230,7 +230,7 @@
           podmiotami począwszy od rolników.
         </p>
       </div>
-      <div class="d-none d-xl-block col-xl-4">
+      <div class="d-none d-md-block col-md-5">
         <div class="recipients-detail-short__business-img-container">
           <img
             class="recipients-detail-short__business-img"
@@ -246,10 +246,12 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid px-0 mx-0 pt-0">
+  <div class="container-fluid px-0 px-md-4 px-xl-0 mx-0 pt-0">
     <div class="row">
-      <div class="col-12 col-xl-3 px-xl-0">
-        <div class="recipients-detail-short__product-item ps-xl-0">
+      <div class="col-12 col-md-auto">
+        <div
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--first"
+        >
           <img
             class="recipients-detail-short__product-item-logo--title"
             src="assets/img/Food_Pass_logo.png"
@@ -279,40 +281,9 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-xl-3 px-xl-0">
-        <div class="recipients-detail-short__product-item">
-          <img
-            class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-orange"
-            src="assets/img/Farm_Portal_logo.png"
-            alt="Food portal logo"
-          />
-          <a
-            routerLink="/farmportal"
-            class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
-            <img
-              class="ms-3"
-              src="assets/img/arrow-short.png"
-              alt="Get know product"
-            />
-          </a>
-          <div class="recipients-detail-short__product-item-logo">
-            <img
-              class="recipients-detail-short__product-item-logo--vector recipients-detail-short__product-item-logo--vector-orange"
-              src="assets/img/Vector_farmportal.png"
-              alt="Food portal vector"
-            />
-            <img
-              class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-orange"
-              src="assets/img/smart_farm.png"
-              alt="Food portal image"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-xl-3 px-xl-0">
+      <div class="col-12 col-md-auto">
         <div
-          class="recipients-detail-short__product-item recipients-detail-short__product-item--last"
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--second"
         >
           <img
             class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-violet"
@@ -339,6 +310,39 @@
               class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-violet"
               src="assets/img/cloud_data.png"
               alt="Food cloud image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-auto">
+        <div
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--last"
+        >
+          <img
+            class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-orange"
+            src="assets/img/Farm_Portal_logo.png"
+            alt="Food portal logo"
+          />
+          <a
+            routerLink="/farmportal"
+            class="recipients-detail-short__product-item-link"
+            >Poznaj produkt
+            <img
+              class="ms-3"
+              src="assets/img/arrow-short.png"
+              alt="Get know product"
+            />
+          </a>
+          <div class="recipients-detail-short__product-item-logo">
+            <img
+              class="recipients-detail-short__product-item-logo--vector recipients-detail-short__product-item-logo--vector-orange"
+              src="assets/img/Vector_farmportal.png"
+              alt="Food portal vector"
+            />
+            <img
+              class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-orange"
+              src="assets/img/smart_farm.png"
+              alt="Food portal image"
             />
           </div>
         </div>

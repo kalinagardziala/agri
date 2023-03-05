@@ -500,6 +500,9 @@
 
     img {
       max-width: 370px;
+      @media only screen and (min-width: 1200px) {
+        max-width: 100%;
+      }
     }
   }
   &__dark-img {

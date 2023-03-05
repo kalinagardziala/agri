@@ -10,6 +10,10 @@
     top: 30px;
     max-width: 330px;
     right: 73px;
+    &-container {
+      position: relative;
+      padding-bottom: 96px;
+    }
   }
   &__title {
     font-size: 48px;
@@ -224,7 +228,7 @@
     position: relative;
     @media only screen and (min-width: 1200px) {
       position: absolute;
-      right: -17px;
+      right: -90px;
       bottom: 430px;
     }
   }
@@ -265,12 +269,38 @@
     padding: 48px 56px;
     border-top-left-radius: 72px;
     margin-bottom: 64px;
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 768px) {
       margin-bottom: 0;
+      padding: 30px 24px;
       background: transparent;
       border-right: 1px solid #aaadb6;
+      border-top-left-radius: 0;
+    }
+    @media only screen and (min-width: 1200px) {
+      padding-left: 40px;
+      padding-right: 85px;
+    }
+    &--first {
+      @media only screen and (min-width: 768px) {
+        border-left: 1px solid #aaadb6;
+      }
+    }
+    &--second {
+      @media only screen and (min-width: 768px) {
+        padding-left: 12px;
+      }
+      @media only screen and (min-width: 1200px) {
+        padding-left: 16px;
+      }
     }
     &--last {
+      @media only screen and (min-width: 768px) {
+        padding-left: 12px;
+      }
+      @media only screen and (min-width: 1200px) {
+        padding-left: 16px;
+      }
+
       margin-bottom: 34px;
     }
     &-link {
@@ -281,6 +311,12 @@
       display: flex;
       flex-wrap: nowrap;
       align-items: center;
+      @media only screen and (min-width: 768px) {
+        margin-left: 0;
+      }
+      @media only screen and (min-width: 1200px) {
+        margin-left: 48px;
+      }
       &:hover,
       &:visited,
       &:focus {
@@ -293,7 +329,7 @@
       top: 18px;
       &--title {
         max-width: 150px;
-        @media only screen and (min-width: 1200px) {
+        @media only screen and (min-width: 768px) {
           max-width: 161px;
         }
         &-orange,
@@ -311,7 +347,7 @@
           right: 0;
           top: 27px;
         }
-        @media only screen and (min-width: 1200px) {
+        @media only screen and (min-width: 768px) {
           display: none;
         }
       }
@@ -330,7 +366,7 @@
           top: -37px;
           max-width: 100px;
         }
-        @media only screen and (min-width: 1200px) {
+        @media only screen and (min-width: 768px) {
           display: none;
         }
       }
@@ -374,7 +410,7 @@
       @media only screen and (min-width: 1200px) {
         position: absolute !important;
         top: -500px;
-        right: -200px;
+        right: -260px;
         width: 300px;
         height: 300px;
         background: none;
