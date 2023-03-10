@@ -32,6 +32,12 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { NgSelectModule, NgOption } from "@ng-select/ng-select";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { NgxSelectModule } from "ngx-select-ex";
+import { RentalsAgriculturalEquipmentComponent } from "./components/pages/recipients/rentals-agricultural-equipment/rentals-agricultural-equipment.component";
+import { FruitAndVegetableDistributorsComponent } from "./components/pages/recipients/fruit-and-vegetable-distributors/fruit-and-vegetable-distributors.component";
+import { FruitsAndVegetableProcessorsComponent } from "./components/pages/recipients/fruits-and-vegetable-processors/fruits-and-vegetable-processors.component";
+import { ResearchAndDevelopmentProjectsComponent } from "./components/pages/recipients/research-and-development-projects/research-and-development-projects.component";
+import { AgriculturalProducersComponent } from "./components/pages/recipients/agricultural-producers/agricultural-producers.component";
+import { StartupComponent } from "./components/pages/recipients/startup/startup.component";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -64,6 +70,12 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeoneServicesComponent,
     HomeoneProcessComponent,
     ReinforcementModelsComponent,
+    RentalsAgriculturalEquipmentComponent,
+    FruitAndVegetableDistributorsComponent,
+    FruitsAndVegetableProcessorsComponent,
+    ResearchAndDevelopmentProjectsComponent,
+    AgriculturalProducersComponent,
+    StartupComponent,
   ],
   imports: [
     BrowserModule,

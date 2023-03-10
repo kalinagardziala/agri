@@ -1,21 +1,18 @@
 <section class="recipients-detail-short">
-  <div class="container-fluid">
+  <div class="container-fluid recipients-detail-short__banner-container">
     <div class="row">
       <div class="col-12 col-md-8">
-        <h1 class="recipients-detail-short__title d-md-none">
-          Wsparcie dla start up
-        </h1>
-        <h1 class="recipients-detail-short__title d-none d-md-block">
-          Wsparcie dla start up
+        <h1 class="recipients-detail-short__title">
+          {{ "STARTUP.TITLE" | translate }}
         </h1>
       </div>
     </div>
+    <img
+      class="recipients-detail-short__banner col-md-4 d-none d-md-block"
+      src="assets/img/hand-truck%201.png"
+      alt="Hand truck image"
+    />
   </div>
-  <img
-    class="recipients-detail-short__banner d-none d-md-block"
-    src="assets/img/hand-truck%201.png"
-    alt="Hand truck image"
-  />
 </section>
 
 <div class="recipients-detail-short recipients-detail-short--secondary-bg">
@@ -28,15 +25,10 @@
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
               <h2 class="recipients-detail-short__title--small">
-                Jak działamy w tym sektorze?
+                {{ "STARTUP.HOW_WE_WORKS_TITLE" | translate }}
               </h2>
               <p class="recipients-detail-short__paragraph">
-                Masz unikatowy, specjalistyczny produkt lub rozwiązanie które
-                potrzebuje informacji o gruntach, uprawach, zabiegach na
-                uprawach? Nie musisz pisać kolejnej aplikacji do zarządzania
-                gospodarstwem rolnym lub uprawami. Skorzystać z naszych
-                produktów na zasadzie "white label" lub zaoferuj swój produkt na
-                naszej ogólnodostępnej platformie.
+                {{ "STARTUP.HOW_WE_WORKS_1" | translate }}
               </p>
             </div>
           </div>
@@ -52,21 +44,30 @@
         >
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
-              <h2 class="recipients-detail-short__title--small">Możliwości</h2>
+              <h2 class="recipients-detail-short__title--small">
+                {{ "STARTUP.POSSIBILITIES_TITLE" | translate }}
+              </h2>
               <p class="recipients-detail-short__paragraph">
-                Udostępnienie funkcjonalności FarmCloud, FoodPass lub FarmPortal
-                na zasadzie "white label"
+                {{ "STARTUP.POSSIBILITIES_PARAGRAPH" | translate }}
               </p>
               <ul class="recipients-detail-short__list">
                 <li class="recipients-detail-short__list-item">
-                  Integracja Twojego produktu na naszej platformie
+                  {{ "STARTUP.POSSIBILITIES_ITEM_1" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Dystrybucja Twojego produktu lub usługi
+                  {{ "STARTUP.POSSIBILITIES_ITEM_2" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Wykorzystaj nasze kompetencje w tworzeniu rozwiązań IoT oraz
-                  oprogramowania
+                  {{ "STARTUP.POSSIBILITIES_ITEM_3" | translate }}
+                </li>
+                <li class="recipients-detail-short__list-item">
+                  {{ "STARTUP.POSSIBILITIES_ITEM_4" | translate }}
+                </li>
+                <li class="recipients-detail-short__list-item">
+                  {{ "STARTUP.POSSIBILITIES_ITEM_5" | translate }}
+                </li>
+                <li class="recipients-detail-short__list-item">
+                  {{ "STARTUP.POSSIBILITIES_ITEM_6" | translate }}
                 </li>
               </ul>
             </div>
@@ -91,25 +92,30 @@
         >
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
-              <h2 class="recipients-detail-short__title--small">Funkcje</h2>
+              <h2 class="recipients-detail-short__title--small">
+                {{ "STARTUP.FUNCTIONS_TITLE" | translate }}
+              </h2>
               <ul class="recipients-detail-short__list mt-xl-0">
                 <li class="recipients-detail-short__list-item">
-                  Zarządzanie uprawami, gruntami, pracownikami
+                  {{ "STARTUP.FUNCTIONS_ITEM_1" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Wymiana informacji na platformie
+                  {{ "STARTUP.FUNCTIONS_ITEM_2" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Monitorowanie upraw
+                  {{ "STARTUP.FUNCTIONS_ITEM_3" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Tworzenie raportów oraz analiz
+                  {{ "STARTUP.FUNCTIONS_ITEM_4" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Integracja sensorów IoT
+                  {{ "STARTUP.FUNCTIONS_ITEM_5" | translate }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  System wewnętrznych notyfikacji i wiadomości
+                  {{ "STARTUP.FUNCTIONS_ITEM_6" | translate }}
+                </li>
+                <li class="recipients-detail-short__list-item">
+                  {{ "STARTUP.FUNCTIONS_ITEM_7" | translate }}
                 </li>
               </ul>
             </div>
@@ -138,55 +144,78 @@
             <div class="col-12">
               <div class="recipients-detail-short__brands">
                 <p class="recipients-detail-short__paragraph--gray">
-                  Sprawdź też powiązane branże
+                  {{ "RECIPIENTS.CHECK" | translate }}
                 </p>
                 <div class="recipients-detail-short__btn-list">
-                  <a class="default-btn default-btn--border mb-3" href="#">
-                    dystrybutorzy owoców i warzyw
+                  <a
+                    class="default-btn default-btn--border mb-3"
+                    href="fruit-and-vegetable-distributors"
+                  >
+                    {{ "RECIPIENTS.ITEM_4" | translate }}
                   </a>
-                  <a class="default-btn default-btn--border mb-3" href="#">
-                    doradztwo rolne
+                  <a
+                    class="default-btn default-btn--border mb-3"
+                    href="agricultural-producers"
+                  >
+                    {{ "RECIPIENTS.ITEM_1" | translate }}
                   </a>
-                  <a class="default-btn default-btn--border mb-3" href="#">
-                    ubezpieczenia
+                  <a
+                    class="default-btn default-btn--border mb-3"
+                    href="rentals-agricultural-equipment"
+                  >
+                    {{ "RECIPIENTS.ITEM_2" | translate }}
                   </a>
-                  <a class="default-btn default-btn--border" href="#">
-                    startupy
+                  <a class="default-btn default-btn--border" href="startups">
+                    {{ "RECIPIENTS.ITEM_7" | translate }}
                   </a>
                 </div>
               </div>
               <div class="recipients-detail-short__contact-section">
-                <p class="recipients-detail-short__paragraph--gray">Kontakt</p>
-                <p class="recipients-detail-short__contact-section-p">
-                  Ligota Wielka 34 <br />
-                  56-400 Ligota Wielka <br />
-                  (+48) XXX XXX XXX<br />
-                  kontakt@agrisolutions.eu
+                <p class="recipients-detail-short__paragraph--gray">
+                  {{ "FARMCLOUD.CONTACT.TITLE" | translate }}
                 </p>
+                <p
+                  [innerHTML]="'FARMCLOUD.CONTACT.ADDRESS' | translate"
+                  class="recipients-detail-short__contact-section-p"
+                ></p>
                 <a
                   class="default-btn default-btn--border d-flex"
                   routerLink="/contact"
                 >
-                  napisz do nas
+                  {{ "FARMCLOUD.CONTACT.BUTTON" | translate }}
                 </a>
               </div>
               <div class="recipients-detail-short__contact-section">
-                <p class="recipients-detail-short__paragraph--gray">Broszury</p>
+                <p class="recipients-detail-short__paragraph--gray">
+                  {{ "FARMCLOUD.BROCHURES.TITLE" | translate }}
+                </p>
                 <div>
                   <div class="recipients-detail-short__contact-link-container">
-                    <a class="recipients-detail-short__contact-link" href="#">
+                    <a
+                      class="recipients-detail-short__contact-link"
+                      href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
+                      target="_blank"
+                    >
                       <img src="assets/img/broszura.png" alt="Broszura" />
                       FoodPass
                     </a>
                   </div>
                   <div class="recipients-detail-short__contact-link-container">
-                    <a class="recipients-detail-short__contact-link" href="#">
+                    <a
+                      class="recipients-detail-short__contact-link"
+                      href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
+                      target="_blank"
+                    >
                       <img src="assets/img/broszura.png" alt="Broszura" />
                       FarmPortal
                     </a>
                   </div>
                   <div class="recipients-detail-short__contact-link-container">
-                    <a class="recipients-detail-short__contact-link" href="#">
+                    <a
+                      class="recipients-detail-short__contact-link"
+                      href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
+                      target="_blank"
+                    >
                       <img src="assets/img/broszura.png" alt="Broszura" />
                       FarmCloud
                     </a>
@@ -208,14 +237,13 @@
         class="col-12 col-md-8 col-xl-5 recipients-detail-short__dark-bg-title-container"
       >
         <h2 class="recipients-detail-short__title--small">
-          Nasze produkty dla tego sektora
+          {{ "RECIPIENTS.OUR_PRODUCTS" | translate }}
         </h2>
         <p class="recipients-detail-short__paragraph">
-          Produkcja rolno-spożywcza jest siecią powiązań między wieloma
-          podmiotami począwszy od rolników.
+          {{ "RECIPIENTS.OUR_PRODUCTS_PARAGRAPH" | translate }}
         </p>
       </div>
-      <div class="d-none d-xl-block col-xl-4">
+      <div class="d-none d-xl-block col-xl-5">
         <div class="recipients-detail-short__business-img-container">
           <img
             class="recipients-detail-short__business-img"
@@ -231,17 +259,23 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid px-0 mx-0 pt-0">
+
+  <div class="container-fluid px-0 px-md-4 px-xl-0 mx-0 pt-0">
     <div class="row">
-      <div class="col-12 col-xl-3 px-xl-0">
-        <div class="recipients-detail-short__product-item ps-xl-0">
+      <div class="col-12 col-md-auto">
+        <div
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--first"
+        >
           <img
             class="recipients-detail-short__product-item-logo--title"
             src="assets/img/Food_Pass_logo.png"
             alt="Food pass logo"
           />
-          <a href="/foodpass" class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
+          <a
+            routerLink="/foodpass"
+            class="recipients-detail-short__product-item-link"
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
             <img
               class="ms-3"
               src="assets/img/arrow-short.png"
@@ -262,48 +296,20 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-xl-3 px-xl-0">
-        <div class="recipients-detail-short__product-item">
-          <img
-            class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-orange"
-            src="assets/img/Farm_Portal_logo.png"
-            alt="Food portal logo"
-          />
-          <a
-            href="farmportal"
-            class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
-            <img
-              class="ms-3"
-              src="assets/img/arrow-short.png"
-              alt="Get know product"
-            />
-          </a>
-          <div class="recipients-detail-short__product-item-logo">
-            <img
-              class="recipients-detail-short__product-item-logo--vector recipients-detail-short__product-item-logo--vector-orange"
-              src="assets/img/Vector_farmportal.png"
-              alt="Food portal vector"
-            />
-            <img
-              class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-orange"
-              src="assets/img/smart_farm.png"
-              alt="Food portal image"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-xl-3 px-xl-0">
+      <div class="col-12 col-md-auto">
         <div
-          class="recipients-detail-short__product-item recipients-detail-short__product-item--last"
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--second"
         >
           <img
             class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-violet"
             src="assets/img/Farm_Cloud_logo.png"
             alt="Food cloud logo"
           />
-          <a href="farmcloud" class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
+          <a
+            routerLink="/farmcloud"
+            class="recipients-detail-short__product-item-link"
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
             <img
               class="ms-3"
               src="assets/img/arrow-short.png"
@@ -320,6 +326,40 @@
               class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-violet"
               src="assets/img/cloud_data.png"
               alt="Food cloud image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-auto">
+        <div
+          class="recipients-detail-short__product-item recipients-detail-short__product-item--last"
+        >
+          <img
+            class="recipients-detail-short__product-item-logo--title recipients-detail-short__product-item-logo--title-orange"
+            src="assets/img/Farm_Portal_logo.png"
+            alt="Food portal logo"
+          />
+          <a
+            routerLink="/farmportal"
+            class="recipients-detail-short__product-item-link"
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
+            <img
+              class="ms-3"
+              src="assets/img/arrow-short.png"
+              alt="Get know product"
+            />
+          </a>
+          <div class="recipients-detail-short__product-item-logo">
+            <img
+              class="recipients-detail-short__product-item-logo--vector recipients-detail-short__product-item-logo--vector-orange"
+              src="assets/img/Vector_farmportal.png"
+              alt="Food portal vector"
+            />
+            <img
+              class="recipients-detail-short__product-item-logo--img recipients-detail-short__product-item-logo--img-orange"
+              src="assets/img/smart_farm.png"
+              alt="Food portal image"
             />
           </div>
         </div>

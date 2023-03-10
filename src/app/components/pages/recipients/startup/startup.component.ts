@@ -3,6 +3,8 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-startup",
   templateUrl: "./startup.component.html",
-  styleUrls: ["./startup.component.scss"],
+  styleUrls: [
+    "../recipients-detail-short/recipients-detail-short.component.scss",
+  ],
 })
 export class StartupComponent {}

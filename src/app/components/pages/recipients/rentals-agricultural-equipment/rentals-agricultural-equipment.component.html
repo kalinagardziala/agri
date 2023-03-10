@@ -2,20 +2,17 @@
   <div class="container-fluid recipients-detail-short__banner-container">
     <div class="row">
       <div class="col-12 col-md-8">
-        <h1 class="recipients-detail-short__title d-md-none">
-          Producenci oraz wypożyczal-nie sprzętu rolnego
-        </h1>
-        <h1 class="recipients-detail-short__title d-none d-md-block">
-          Producenci oraz wypożyczalnie sprzętu rolnego
+        <h1 class="recipients-detail-short__title">
+          {{ "RENTALS_AGRICULTURAL_EQUIPMENT.TITLE" | translate }}
         </h1>
       </div>
     </div>
+    <img
+      class="recipients-detail-short__banner col-md-4 d-none d-md-block"
+      src="assets/img/hand-truck%201.png"
+      alt="Hand truck image"
+    />
   </div>
-  <img
-    class="recipients-detail-short__banner col-md-4 d-none d-md-block"
-    src="assets/img/hand-truck%201.png"
-    alt="Hand truck image"
-  />
 </section>
 
 <div class="recipients-detail-short recipients-detail-short--secondary-bg">
@@ -28,13 +25,15 @@
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
               <h2 class="recipients-detail-short__title--small">
-                Jak działamy w tym sektorze?
+                {{
+                  "RENTALS_AGRICULTURAL_EQUIPMENT.HOW_WE_WORKS_TITLE"
+                    | translate
+                }}
               </h2>
               <p class="recipients-detail-short__paragraph">
-                Jeśli produkujesz lub wypożyczasz sprzęt rolniczy jak
-                opryskiwacze, traktory, kombajny i chcesz zaoferować klientom
-                rozwiązania telematyczne lub monitorować ich użycie mamy
-                rozwiązania dla Twoich potrzeb.
+                {{
+                  "RENTALS_AGRICULTURAL_EQUIPMENT.HOW_WE_WORKS_1" | translate
+                }}
               </p>
             </div>
           </div>
@@ -50,27 +49,54 @@
         >
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
-              <h2 class="recipients-detail-short__title--small">Możliwości</h2>
+              <h2 class="recipients-detail-short__title--small">
+                {{
+                  "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_TITLE"
+                    | translate
+                }}
+              </h2>
               <p class="recipients-detail-short__paragraph">
-                Nasze produkty wspierają dystrybutorów owoców i warzyw w
-                procesach na każdym etapie łańcucha dostaw, między innymi:
+                {{
+                  "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_PARAGRAPH"
+                    | translate
+                }}
               </p>
               <ul class="recipients-detail-short__list">
                 <li class="recipients-detail-short__list-item">
-                  Kontraktowanie dostaw oraz rozliczanie planu realizacji
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_1"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Monitorowanie produkcji od pola do stołu
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_2"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Wsparcie audytu upraw, gospodarstw
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_3"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Kontrola jakości i bezpieczeństwa
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_4"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Integracja z obecnymi w przedsiębiorstwie systemami
-                  informatycznymi ERP, MRP, CRM
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_5"
+                      | translate
+                  }}
+                </li>
+                <li class="recipients-detail-short__list-item">
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.POSSIBILITIES_ITEM_6"
+                      | translate
+                  }}
                 </li>
               </ul>
             </div>
@@ -95,36 +121,53 @@
         >
           <div class="row">
             <div class="col-12 col-md-8 col-xl-9">
-              <h2 class="recipients-detail-short__title--small">Funkcje</h2>
+              <h2 class="recipients-detail-short__title--small">
+                {{
+                  "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_TITLE" | translate
+                }}
+              </h2>
               <ul class="recipients-detail-short__list mt-xl-0">
                 <li class="recipients-detail-short__list-item">
-                  Zawieranie kontraktów z dostawcami na konkretne produkty, na
-                  dokładnie określonych działkach z harmonogramem dostaw
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_1"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Przyjęcia towarów na podstawie rejestracji dostaw wraz
-                  kontrolą jakości
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_2"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Budowanie relacji z dostawcami dzięki rozwiązaniom komunikacji
-                  wewnętrznej, funkcjom CRM, przekazywaniem danych
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_3"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Kontrola jakości oraz bezpieczeństwa - od gruntu, poprzez
-                  uprawy aż po dostawę towaru
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_4"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Zarządzanie zadaniami dla kupców, technologów
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_5"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Wsparcie dla przeprowadzania kontroli upraw dostawców dla
-                  technologów i agronomów
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_6"
+                      | translate
+                  }}
                 </li>
                 <li class="recipients-detail-short__list-item">
-                  Zarządzanie katalogiem produktów
-                </li>
-                <li class="recipients-detail-short__list-item">
-                  Wsparcie kryzysowe dostawców
+                  {{
+                    "RENTALS_AGRICULTURAL_EQUIPMENT.FUNCTIONS_ITEM_7"
+                      | translate
+                  }}
                 </li>
               </ul>
             </div>
@@ -153,52 +196,55 @@
             <div class="col-12">
               <div class="recipients-detail-short__brands">
                 <p class="recipients-detail-short__paragraph--gray">
-                  Sprawdź też powiązane branże
+                  {{ "RECIPIENTS.CHECK" | translate }}
                 </p>
                 <div class="recipients-detail-short__btn-list">
                   <a
                     class="default-btn default-btn--border mb-3"
                     href="fruit-and-vegetable-distributors"
                   >
-                    dystrybutorzy owoców i warzyw
+                    {{ "RECIPIENTS.ITEM_4" | translate }}
                   </a>
                   <a
                     class="default-btn default-btn--border mb-3"
                     href="agricultural-producers"
                   >
-                    producenci rolni
+                    {{ "RECIPIENTS.ITEM_1" | translate }}
                   </a>
                   <a
                     class="default-btn default-btn--border mb-3"
                     href="rentals-agricultural-equipment"
                   >
-                    producenci sprzętu rolnego
+                    {{ "RECIPIENTS.ITEM_2" | translate }}
                   </a>
                   <a class="default-btn default-btn--border" href="startups">
-                    startupy
+                    {{ "RECIPIENTS.ITEM_7" | translate }}
                   </a>
                 </div>
               </div>
               <div class="recipients-detail-short__contact-section">
-                <p class="recipients-detail-short__paragraph--gray">Kontakt</p>
-                <p class="recipients-detail-short__contact-section-p">
-                  Ligota Wielka 34 <br />
-                  56-400 Ligota Wielka <br />
-                  (+48) 794 708 587<br />
-                  kontakt@agrisolutions.eu
+                <p class="recipients-detail-short__paragraph--gray">
+                  {{ "FARMCLOUD.CONTACT.TITLE" | translate }}
                 </p>
+                <p
+                  [innerHTML]="'FARMCLOUD.CONTACT.ADDRESS' | translate"
+                  class="recipients-detail-short__contact-section-p"
+                ></p>
                 <a
                   class="default-btn default-btn--border d-flex"
                   routerLink="/contact"
                 >
-                  napisz do nas
+                  {{ "FARMCLOUD.CONTACT.BUTTON" | translate }}
                 </a>
               </div>
               <div class="recipients-detail-short__contact-section">
-                <p class="recipients-detail-short__paragraph--gray">Broszury</p>
+                <p class="recipients-detail-short__paragraph--gray">
+                  {{ "FARMCLOUD.BROCHURES.TITLE" | translate }}
+                </p>
                 <div>
                   <div class="recipients-detail-short__contact-link-container">
                     <a
+                      class="recipients-detail-short__contact-link"
                       href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
                       target="_blank"
                     >
@@ -208,6 +254,7 @@
                   </div>
                   <div class="recipients-detail-short__contact-link-container">
                     <a
+                      class="recipients-detail-short__contact-link"
                       href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
                       target="_blank"
                     >
@@ -217,6 +264,7 @@
                   </div>
                   <div class="recipients-detail-short__contact-link-container">
                     <a
+                      class="recipients-detail-short__contact-link"
                       href="./assets/img/katalog-AgriSolutions-FoodPass-7%20(1).pdf"
                       target="_blank"
                     >
@@ -238,17 +286,16 @@
   <div class="container-fluid">
     <div class="row">
       <div
-        class="col-12 col-md-6 col-xl-5 recipients-detail-short__dark-bg-title-container"
+        class="col-12 col-md-8 col-xl-5 recipients-detail-short__dark-bg-title-container"
       >
         <h2 class="recipients-detail-short__title--small">
-          Nasze produkty dla tego sektora
+          {{ "RECIPIENTS.OUR_PRODUCTS" | translate }}
         </h2>
         <p class="recipients-detail-short__paragraph">
-          Produkcja rolno-spożywcza jest siecią powiązań między wieloma
-          podmiotami począwszy od rolników.
+          {{ "RECIPIENTS.OUR_PRODUCTS_PARAGRAPH" | translate }}
         </p>
       </div>
-      <div class="d-none d-md-block col-md-5">
+      <div class="d-none d-xl-block col-xl-5">
         <div class="recipients-detail-short__business-img-container">
           <img
             class="recipients-detail-short__business-img"
@@ -264,6 +311,7 @@
       </div>
     </div>
   </div>
+
   <div class="container-fluid px-0 px-md-4 px-xl-0 mx-0 pt-0">
     <div class="row">
       <div class="col-12 col-md-auto">
@@ -278,7 +326,8 @@
           <a
             routerLink="/foodpass"
             class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
             <img
               class="ms-3"
               src="assets/img/arrow-short.png"
@@ -311,7 +360,8 @@
           <a
             routerLink="/farmcloud"
             class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
             <img
               class="ms-3"
               src="assets/img/arrow-short.png"
@@ -344,7 +394,8 @@
           <a
             routerLink="/farmportal"
             class="recipients-detail-short__product-item-link"
-            >Poznaj produkt
+          >
+            {{ "RECIPIENTS.OUR_PRODUCTS_LINK" | translate }}
             <img
               class="ms-3"
               src="assets/img/arrow-short.png"

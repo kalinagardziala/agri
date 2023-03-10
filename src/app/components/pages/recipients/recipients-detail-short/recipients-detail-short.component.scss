@@ -12,6 +12,7 @@
     max-width: 330px;
     right: 73px;
     &-container {
+      position: relative;
       @media only screen and (min-width: 1200px) {
         padding-bottom: 96px;
       }

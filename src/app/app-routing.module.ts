@@ -13,6 +13,10 @@ import { FarmportalPageComponent } from "./components/pages/farmportal-page/farm
 import { FarmcloudPageComponent } from "./components/pages/farmcloud-page/farmcloud-page.component";
 import { ReinforcementModelsComponent } from "./components/pages/reinforcement-models/reinforcement-models.component";
 import { StartupComponent } from "./components/pages/recipients/startup/startup.component";
+import { AgriculturalProducersComponent } from "./components/pages/recipients/agricultural-producers/agricultural-producers.component";
+import { FruitAndVegetableDistributorsComponent } from "./components/pages/recipients/fruit-and-vegetable-distributors/fruit-and-vegetable-distributors.component";
+import { RentalsAgriculturalEquipmentComponent } from "./components/pages/recipients/rentals-agricultural-equipment/rentals-agricultural-equipment.component";
+import { ResearchAndDevelopmentProjectsComponent } from "./components/pages/recipients/research-and-development-projects/research-and-development-projects.component";
 
 const routes: Routes = [
   { path: "", component: LandingPageComponent },
@@ -23,16 +27,24 @@ const routes: Routes = [
     component: RecipientsComponent,
   },
   {
-    path: "recipients-detail-short",
-    component: RecipientsDetailShortComponent,
+    path: "agricultural-producers",
+    component: AgriculturalProducersComponent,
+  },
+  {
+    path: "fruit-and-vegetable-distributors",
+    component: FruitAndVegetableDistributorsComponent,
+  },
+  {
+    path: "rentals-agricultural-equipment",
+    component: RentalsAgriculturalEquipmentComponent,
+  },
+  {
+    path: "research-and-development-projects",
+    component: ResearchAndDevelopmentProjectsComponent,
   },
   {
     path: "startup",
     component: StartupComponent,
-  },
-  {
-    path: "recipients-detail-long",
-    component: RecipientsDetailLongComponent,
   },
   {
     path: "foodpass",
